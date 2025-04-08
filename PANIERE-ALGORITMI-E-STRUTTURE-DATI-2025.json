@@ -1,1 +1,3079 @@
-[]
+[
+    {
+        "chapter_title": "1: Introduzione agli algoritmi",
+        "questions": [
+            {
+                "question": "Cos'è un problema:",
+                "answers": {
+                    "A": "un evento senza soluzione",
+                    "B": "una risposta ad una domanda",
+                    "C": "qualcosa che siamo chiamati a risolvere",
+                    "D": "una soluzione"
+                },
+                "correct_answer": "C",
+                "section": "Problema e soluzione"
+            },
+            {
+                "question": "Cos'è una istanza:",
+                "answers": {
+                    "A": "un particolare input ad un problema",
+                    "B": "un tipo di problema",
+                    "C": "una soluzione al problema",
+                    "D": "un valore specifico"
+                },
+                "correct_answer": "A",
+                "section": "Problema e soluzione"
+            },
+            {
+                "question": "Cos'è un algoritmo:",
+                "answers": {
+                    "A": "un insieme di soluzioni",
+                    "B": "una risposta singola ad un problema",
+                    "C": "un sinonimo di problema",
+                    "D": "una sequenza di istruzioni che istruiscono sull'esecuzione di un determinato compito"
+                },
+                "correct_answer": "D",
+                "section": "Cos'è un algoritmo"
+            },
+            {
+                "question": "Chi è l'esecutore dell'algoritmo:",
+                "answers": {
+                    "A": "chi realizza l'algoritmo",
+                    "B": "l'utente generico che esegue l'algoritmo",
+                    "C": "chi esegue l'algoritmo e conosce il linguaggio con il quale è stato scritto",
+                    "D": "chi implementa l'algoritmo"
+                },
+                "correct_answer": "C",
+                "section": "Cos'è un algoritmo"
+            },
+            {
+                "question": "La seguente frase è \"ambigua\":",
+                "answers": {
+                    "A": "il valore esatto è 5",
+                    "B": "il numero è grande",
+                    "C": "la temperatura è di 30°",
+                    "D": "20g di sale"
+                },
+                "correct_answer": "B",
+                "section": "Cos'è un algoritmo"
+            },
+            {
+                "question": "La pragmatica indica:",
+                "answers": {
+                    "A": "lo studio del miglior modo per esprimere un concetto",
+                    "B": "una serie di regole",
+                    "C": "la sintassi",
+                    "D": "la semantica"
+                },
+                "correct_answer": "A",
+                "section": "Cos'è un algoritmo"
+            },
+            {
+                "question": "Il determinismo indica:",
+                "answers": {
+                    "A": "uno stato mentale",
+                    "B": "un modo di risolvere un problema",
+                    "C": "un tipo di algoritmo",
+                    "D": "stesso risultato indipendentemente dall'esecutore"
+                },
+                "correct_answer": "D",
+                "section": "Proprietà di un algoritmo"
+            },
+            {
+                "question": "Nella selezione:",
+                "answers": {
+                    "A": "esistono due condizioni da valutare e due possibili gruppi di istruzioni da eseguire",
+                    "B": "esiste una condizione da valutare e due possibili gruppi di istruzioni da eseguire",
+                    "C": "esiste una condizione da valutare ed una possibile istruzione da eseguire",
+                    "D": "si esegue il valore TRUE"
+                },
+                "correct_answer": "B",
+                "section": "Proprietà di un algoritmo"
+            },
+            {
+                "question": "L'assegnazione:",
+                "answers": {
+                    "A": "modifica il valore di una variabile",
+                    "B": "lascia inalterato il valore di una variabile",
+                    "C": "È un tipo di output",
+                    "D": "È un valore intero"
+                },
+                "correct_answer": "A",
+                "section": "Proprietà di un algoritmo"
+            },
+            {
+                "question": "Qualunque algoritmo può essere implementato usando le sole seguenti strutture:",
+                "answers": {
+                    "A": "assegnazione, input ed output",
+                    "B": "assegnazione, selezione ed iterazione",
+                    "C": "sequenza, ciclo e selezione",
+                    "D": "selezione, sequenza ed input"
+                },
+                "correct_answer": "C",
+                "section": "Teorema di Bohm-Jacopini"
+            }
+        ]
+    },
+    {
+        "chapter_title": "2: Pseudocodice e flowchart",
+        "questions": [
+            {
+                "question": "Nella tesi di Church-Turing:",
+                "answers": {
+                    "A": "tutti i linguaggi sufficientemente espressivi sono ugualmente espressivi",
+                    "B": "tutti i linguaggi sono identici",
+                    "C": "tutti i linguaggi sono diversamente espressivi",
+                    "D": "i linguaggi non espressivi sono privilegiati"
+                },
+                "correct_answer": "A",
+                "section": "Flowchart"
+            },
+            {
+                "question": "La sequenza delle operazioni è rappresentata da:",
+                "answers": {
+                    "A": "rombi",
+                    "B": "rettangoli",
+                    "C": "linee",
+                    "D": "frecce"
+                },
+                "correct_answer": "D",
+                "section": "Flowchart"
+            },
+            {
+                "question": "Un comando di output:",
+                "answers": {
+                    "A": "valuta un'espressione",
+                    "B": "valuta un'espressione e poi visualizza il risultato sullo schermo",
+                    "C": "visualizza il risultato sullo schermo",
+                    "D": "legge un valore in ingresso"
+                },
+                "correct_answer": "B",
+                "section": "Flowchart"
+            },
+            {
+                "question": "Un comando di input:",
+                "answers": {
+                    "A": "genera un input",
+                    "B": "legge un input",
+                    "C": "legge un input ed immagazzina tale valore in una variabile",
+                    "D": "legge da una variabile"
+                },
+                "correct_answer": "C",
+                "section": "Flowchart"
+            },
+            {
+                "question": "Nella selezione, in funzione del valore della condizione, si sceglie un blocco oppure l'altro:",
+                "answers": {
+                    "A": "sempre",
+                    "B": "mai",
+                    "C": "a seconda dell'input",
+                    "D": "a seconda del valore della variabile condizione"
+                },
+                "correct_answer": "A",
+                "section": "Flowchart"
+            },
+            {
+                "question": "Nell'assegnazione:",
+                "answers": {
+                    "A": "si modifica il valore di una variabile",
+                    "B": "si assegna un valore all'input",
+                    "C": "si assegna un valore da scrivere in output",
+                    "D": "si legge da tastiera"
+                },
+                "correct_answer": "A",
+                "section": "Flowchart"
+            },
+            {
+                "question": "While {condizione} do {corpo} end while:",
+                "answers": {
+                    "A": "indica una iterazione",
+                    "B": "indica una selezione",
+                    "C": "indica un'assegnazione",
+                    "D": "indica un input"
+                },
+                "correct_answer": "A",
+                "section": "Pseudocodice"
+            },
+            {
+                "question": "Fun(arg1, arg2 ...):",
+                "answers": {
+                    "A": "indica una iterazione",
+                    "B": "indica una selezione",
+                    "C": "indica una funzione",
+                    "D": "indica un'assegnazione"
+                },
+                "correct_answer": "C",
+                "section": "Pseudocodice"
+            },
+            {
+                "question": "Il seguente pseudocodice (a, b) < - (b,a):",
+                "answers": {
+                    "A": "indica una somma",
+                    "B": "indica una selezione",
+                    "C": "indica uno scambio del valore delle variabili",
+                    "D": "indica una iterazione"
+                },
+                "correct_answer": "C",
+                "section": "Pseudocodice"
+            },
+            {
+                "question": "Il seguente pseudocodice arr[{espr}]:",
+                "answers": {
+                    "A": "indica un array",
+                    "B": "indica un valore specifico all'interno dell'array",
+                    "C": "indica la posizione iniziale dell'array",
+                    "D": "indica la lunghezza dell'array"
+                },
+                "correct_answer": "B",
+                "section": "Pseudocodice"
+            }
+        ]
+    },
+    {
+        "chapter_title": "3: Un problema, due algoritmi",
+        "questions": [
+            {
+                "question": "Nella ricerca sequenziale di un elemento in un array di n elementi:",
+                "answers": {
+                    "A": "la complessità è proporzionale ad n",
+                    "B": "la complessità non è proporzionale ad n",
+                    "C": "la complessità è pari ad n*n",
+                    "D": "la complessità è logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Presentazione del problema e soluzione naive"
+            },
+            {
+                "question": "Nella ricerca sequenziale di un elemento in un array di n elementi:",
+                "answers": {
+                    "A": "l'array deve essere ordinato",
+                    "B": "l'array può essere ordinato",
+                    "C": "l'array non deve essere ordinato",
+                    "D": "l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale"
+                },
+                "correct_answer": "D",
+                "section": "Presentazione del problema e soluzione naive"
+            },
+            {
+                "question": "Nella ricerca binaria:",
+                "answers": {
+                    "A": "l'array deve essere ordinato",
+                    "B": "l'array può essere ordinato",
+                    "C": "l'array non deve essere ordinato",
+                    "D": "l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale"
+                },
+                "correct_answer": "A",
+                "section": "Soluzione efficiente"
+            },
+            {
+                "question": "Nella ricerca binaria:",
+                "answers": {
+                    "A": "la complessità è proporzionale ad n",
+                    "B": "la complessità non è proporzionale ad n",
+                    "C": "la complessità è pari ad n*n",
+                    "D": "la complessità è logaritmica"
+                },
+                "correct_answer": "D",
+                "section": "Soluzione efficiente"
+            },
+            {
+                "question": "Nella ricerca binaria:",
+                "answers": {
+                    "A": "l'algoritmo è ricorsivo",
+                    "B": "l'algoritmo non è ricorsivo",
+                    "C": "l'algoritmo non deve essere ricorsivo",
+                    "D": "l'algoritmo ricorsivo è fortemente sconsigliato"
+                },
+                "correct_answer": "A",
+                "section": "Soluzione efficiente"
+            },
+            {
+                "question": "Nella ricerca binaria, la procedura ricorsiva:",
+                "answers": {
+                    "A": "non lavora su sottoinsiemi dell'array",
+                    "B": "lavora su sottoinsiemi dell'array",
+                    "C": "si occupa di eseguire l'ordinamento dell'array in esame",
+                    "D": "costruisce un nuovo array"
+                },
+                "correct_answer": "B",
+                "section": "Soluzione efficiente"
+            },
+            {
+                "question": "Nell'analisi di un algorimo è importante considerare correttezza, completezza e:",
+                "answers": {
+                    "A": "determinismo",
+                    "B": "complessità",
+                    "C": "fattibilità",
+                    "D": "risolvibilità"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione al concetto di complessità"
+            },
+            {
+                "question": "Un algoritmo è corretto quando:",
+                "answers": {
+                    "A": "restituisce almeno una risposta corretta",
+                    "B": "può restituire una risposta corretta",
+                    "C": "restituisce sempre una risposta corretta",
+                    "D": "restituisce una risposta corretta se gli input sono ben strutturati"
+                },
+                "correct_answer": "C",
+                "section": "Introduzione al concetto di complessità"
+            },
+            {
+                "question": "Fornire la complessità dell'algoritmo corretto:",
+                "answers": {
+                    "A": "significa fornire il tempo di calcolo dell'algoritmo",
+                    "B": "significa la complessità minima del problema",
+                    "C": "significa dare il tetto alla complessità del problema risolto dall'algoritmo",
+                    "D": "significa dare almeno un tetto alla complessità del problema risolto dall'algoritmo"
+                },
+                "correct_answer": "D",
+                "section": "Introduzione al concetto di complessità"
+            },
+            {
+                "question": "Se l'algoritmo trovato non è il migliore per risolvere quel problema:",
+                "answers": {
+                    "A": "avremo risposto alla domanda qual è la complessità del mio problema",
+                    "B": "non avremo risposto alla domanda qual è la complessità del mio problema",
+                    "C": "il problema non ammette soluzione ottima",
+                    "D": "l'algoritmo non è corretto"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione al concetto di complessità"
+            }
+        ]
+    },
+    {
+        "chapter_title": "4: Divide et Impera",
+        "questions": [
+            {
+                "question": "Il dato di ingresso soddisfa una certa proprietà:",
+                "answers": {
+                    "A": "È un tipo di problema decisionale",
+                    "B": "È un tipo di problema di ricerca",
+                    "C": "È un tipo di problema di ottimizzazione",
+                    "D": "È un tipo di problema di struttura"
+                },
+                "correct_answer": "A",
+                "section": "Classificazione dei problemi"
+            },
+            {
+                "question": "Un problema di ottimizzazione:",
+                "answers": {
+                    "A": "cerca una soluzione a costo massimo",
+                    "B": "cerca una soluzione a costo minimo",
+                    "C": "cerca una soluzione ammissibile",
+                    "D": "cerca una soluzione formale"
+                },
+                "correct_answer": "B",
+                "section": "Classificazione dei problemi"
+            },
+            {
+                "question": "Stabilire se un grafo è connesso:",
+                "answers": {
+                    "A": "È un problema decisionale",
+                    "B": "È un tipo di problema di ricerca",
+                    "C": "È un tipo di problema di ottimizzazione",
+                    "D": "È un tipo di problema di struttura"
+                },
+                "correct_answer": "A",
+                "section": "Classificazione dei problemi"
+            },
+            {
+                "question": "Nella programmazione dinamica:",
+                "answers": {
+                    "A": "un problema viene suddiviso in sotto-problemi indipendenti tra loro",
+                    "B": "si usa una cache",
+                    "C": "la soluzione viene costruita a partire da un insieme di sotto-problemi potenzialmente ripetuti",
+                    "D": "si fa sempre la scelta localmente ottima"
+                },
+                "correct_answer": "C",
+                "section": "Tecnica di progetto"
+            },
+            {
+                "question": "Prova a fare qualcosa, se non funziona disfala e prova a farne un'altra:",
+                "answers": {
+                    "A": "È tipico della programmazione dinamica",
+                    "B": "È tipico dell'algoritmo probabilistico",
+                    "C": "È un problema di ottimizzazione",
+                    "D": "È tipico del Backtrack"
+                },
+                "correct_answer": "D",
+                "section": "Tecnica di progetto"
+            },
+            {
+                "question": "L'approccio bottom-up è tipico di:",
+                "answers": {
+                    "A": "programmazione dinamica",
+                    "B": "divide et impera",
+                    "C": "tecnica greedy",
+                    "D": "sistemi complessi"
+                },
+                "correct_answer": "A",
+                "section": "Tecnica di progetto"
+            },
+            {
+                "question": "La scelta migliore nell'immediata è tipica di:",
+                "answers": {
+                    "A": "programmazione dinamica",
+                    "B": "divide et impera",
+                    "C": "tecnica greedy",
+                    "D": "sistemi complessi"
+                },
+                "correct_answer": "C",
+                "section": "Tecnica di progetto"
+            },
+            {
+                "question": "Combina:",
+                "answers": {
+                    "A": "È una fase del divide et impera",
+                    "B": "non è una fase del divide et impera",
+                    "C": "si usa nel divide et impera al posto del divide",
+                    "D": "È una fase della tecnica greedy"
+                },
+                "correct_answer": "A",
+                "section": "Divide et Impera"
+            },
+            {
+                "question": "La ricorsione:",
+                "answers": {
+                    "A": "È tipica delle tecniche probabilistiche",
+                    "B": "È tipica delle tecniche golose",
+                    "C": "È tipica del divide et impera",
+                    "D": "È tipica dei sistemi di ottimizzazione"
+                },
+                "correct_answer": "C",
+                "section": "Divide et Impera"
+            },
+            {
+                "question": "Nella torre di Hanoi con 4 dischi il numero di mosse necessarie è:",
+                "answers": {
+                    "A": "10",
+                    "B": "11",
+                    "C": "13",
+                    "D": "15"
+                },
+                "correct_answer": "D",
+                "section": "Torre di Hanoi"
+            }
+        ]
+    },
+    {
+        "chapter_title": "5: Notazione Asintotica",
+        "questions": [
+            {
+                "question": "Una delle seguenti non è una operazione elementare:",
+                "answers": {
+                    "A": "aritmetica",
+                    "B": "logica",
+                    "C": "confronto",
+                    "D": "iterazione"
+                },
+                "correct_answer": "D",
+                "section": "Notazione Asintotica"
+            },
+            {
+                "question": "La complessità asintotica:",
+                "answers": {
+                    "A": "stima quanto aumenta il tempo di calcolo al crescere della dimensione n dell'input",
+                    "B": "stima quanto aumenta il tempo di calcolo al crescere della dimensione n dell'output",
+                    "C": "stima quanto aumenta il tempo di calcolo al crescere del tempo di esecuzione",
+                    "D": "stima quanto aumenta il tempo di calcolo al crescere del numero di iterazioni"
+                },
+                "correct_answer": "A",
+                "section": "Notazione Asintotica"
+            },
+            {
+                "question": "La notazione Theta rappresenta:",
+                "answers": {
+                    "A": "un limite superiore",
+                    "B": "un limite inferiore",
+                    "C": "un limite stretto",
+                    "D": "nessun limite"
+                },
+                "correct_answer": "C",
+                "section": "Notazione Asintotica"
+            },
+            {
+                "question": "La notazione asintotica O:",
+                "answers": {
+                    "A": "vale per ogni n",
+                    "B": "vale per ogni n maggiore o uguale ad un certo valore n con 0",
+                    "C": "vale per ogni n minore o uguale ad un certo valore n con 0",
+                    "D": "vale solo per un valore di n con 0"
+                },
+                "correct_answer": "B",
+                "section": "Notazione Asintotica O"
+            },
+            {
+                "question": "Una funzione polinomiale è:",
+                "answers": {
+                    "A": "O(n^2)",
+                    "B": "O(n)",
+                    "C": "O(n-1)",
+                    "D": "O(x)"
+                },
+                "correct_answer": "A",
+                "section": "Notazione Asintotica O"
+            },
+            {
+                "question": "Una funzione polinomiale è:",
+                "answers": {
+                    "A": "Ω(n^2)",
+                    "B": "Ω(n)",
+                    "C": "Ω(n-1)",
+                    "D": "Ω(x)"
+                },
+                "correct_answer": "A",
+                "section": "Notazione Asintotica Omega"
+            },
+            {
+                "question": "La notazione asintotica Omega:",
+                "answers": {
+                    "A": "vale per ogni n",
+                    "B": "vale per ogni n maggiore o uguale ad un certo valore n con 0",
+                    "C": "vale per ogni n minore o uguale ad un certo valore n con 0",
+                    "D": "vale solo per un valore di n con 0"
+                },
+                "correct_answer": "B",
+                "section": "Notazione Asintotica Omega"
+            },
+            {
+                "question": "Nel logaritmo, O(n) ed Ω(n):",
+                "answers": {
+                    "A": "coincodono",
+                    "B": "non coincidono",
+                    "C": "coincidono per un certo valore di n con 0",
+                    "D": "coincidono per n=0"
+                },
+                "correct_answer": "B",
+                "section": "Analisi O ed Omega"
+            },
+            {
+                "question": "Se una funzione è sia O(g(n)) che Ω(g(n):",
+                "answers": {
+                    "A": "allora è o(n)",
+                    "B": "allora è θ(g(n))",
+                    "C": "allora è un logaritmo",
+                    "D": "allora è una retta"
+                },
+                "correct_answer": "B",
+                "section": "Notazione Asintotica Theta"
+            },
+            {
+                "question": "La notazione asintotica Theta ammette che esistano 2 costanti c1 e c2:",
+                "answers": {
+                    "A": "per ogni n",
+                    "B": "per ogni n maggiore o uguale ad un certo valore n con 0",
+                    "C": "per ogni n minore o uguale ad un certo valore n con 0",
+                    "D": "per un valore di n con 0"
+                },
+                "correct_answer": "B",
+                "section": "Notazione Asintotica Theta"
+            }
+        ]
+    },
+    {
+        "chapter_title": "6: Complessità",
+        "questions": [
+            {
+                "question": "La notazione asintotica O:",
+                "answers": {
+                    "A": "rappresenta un limite inferiore asintotico",
+                    "B": "rappresenta un limite superiore asintotico",
+                    "C": "rappresenta un limite stretto asintotico",
+                    "D": "non rappresenta un limite"
+                },
+                "correct_answer": "A",
+                "section": "Notazione asintotica e proprietà"
+            },
+            {
+                "question": "Il limite superiore di una espressione polinomiale è:",
+                "answers": {
+                    "A": "di ordine n^k",
+                    "B": "di ordine n^(k-1)",
+                    "C": "di ordine n^(k-2)",
+                    "D": "di ordine n"
+                },
+                "correct_answer": "A",
+                "section": "Notazione asintotica e proprietà"
+            },
+            {
+                "question": "Il limite inferiore di una espressione polinomiale è:",
+                "answers": {
+                    "A": "di ordine n^2",
+                    "B": "di ordine n^(k-1)",
+                    "C": "di ordine n^k",
+                    "D": "di ordine n"
+                },
+                "correct_answer": "C",
+                "section": "Notazione asintotica e proprietà"
+            },
+            {
+                "question": "Se il limite per n tendente all'infinito di f(n)/g(n) è 0:",
+                "answers": {
+                    "A": "f(n) è O grande di g(n)",
+                    "B": "f(n) è Omega grande di g(n)",
+                    "C": "f(n) è Theta grande di g(n)",
+                    "D": "f(n) è costante"
+                },
+                "correct_answer": "A",
+                "section": "Limiti asintotici e notazioni piccole"
+            },
+            {
+                "question": "Se il limite per n tendente all'infinito di f(n)/g(n) è infinito:",
+                "answers": {
+                    "A": "f(n) è O grande di g(n)",
+                    "B": "f(n) è Omega grande di g(n)",
+                    "C": "f(n) è Theta grande di g(n)",
+                    "D": "f(n) è costante"
+                },
+                "correct_answer": "B",
+                "section": "Limiti asintotici e notazioni piccole"
+            },
+            {
+                "question": "Se il limite per n tendente all'infinito di f(n)/g(n) è un numero finito:",
+                "answers": {
+                    "A": "f(n) è O grande di g(n)",
+                    "B": "f(n) è Omega grande di g(n)",
+                    "C": "f(n) è Theta grande di g(n)",
+                    "D": "f(n) è costante"
+                },
+                "correct_answer": "C",
+                "section": "Limiti asintotici e notazioni piccole"
+            },
+            {
+                "question": "La seguente non è una proprietà dei limiti asintotici:",
+                "answers": {
+                    "A": "Transitiva",
+                    "B": "Riflessiva",
+                    "C": "Simmetrica",
+                    "D": "Sottrattiva"
+                },
+                "correct_answer": "D",
+                "section": "Limiti asintotici e notazioni piccole"
+            },
+            {
+                "question": "La 'o' piccola implica la 'O' grande:",
+                "answers": {
+                    "A": "mai",
+                    "B": "sempre",
+                    "C": "solo se vale theta",
+                    "D": "solo se implica omega"
+                },
+                "correct_answer": "B",
+                "section": "La scala della complessità"
+            },
+            {
+                "question": "O(n·log n) è detta:",
+                "answers": {
+                    "A": "complessità logaritmica",
+                    "B": "complessità pseudolineare",
+                    "C": "complessità lineare",
+                    "D": "complessità polinomiale"
+                },
+                "correct_answer": "B",
+                "section": "La scala della complessità"
+            },
+            {
+                "question": "Quale tra le seguenti ha una complessità maggiore al crescere di n:",
+                "answers": {
+                    "A": "costante",
+                    "B": "esponenziale",
+                    "C": "lineare",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "La scala della complessità"
+            }
+        ]
+    },
+    {
+        "chapter_title": "7: Flowgorithm - Funzionalità di base",
+        "questions": [
+            {
+                "question": "Nei diagrammi di flusso, il simbolo del rombo è usato per:",
+                "answers": {
+                    "A": "selezione",
+                    "B": "input",
+                    "C": "output",
+                    "D": "assegnazione"
+                },
+                "correct_answer": "A",
+                "section": "Selezione"
+            },
+            {
+                "question": "Nella selezione sono possibili:",
+                "answers": {
+                    "A": "vero e falso",
+                    "B": "vero, falso o altro",
+                    "C": "0, 1, 2",
+                    "D": "solo opzioni vere"
+                },
+                "correct_answer": "A",
+                "section": "Selezione"
+            },
+            {
+                "question": "Nell'iterazione sono possibili esclusivamente:",
+                "answers": {
+                    "A": "mentre",
+                    "B": "fai",
+                    "C": "mentre, fai, per",
+                    "D": "mentre, per, ancora"
+                },
+                "correct_answer": "C",
+                "section": "Iterazione"
+            },
+            {
+                "question": "Nella ripetizione \"mentre\" è solo possibile specificare:",
+                "answers": {
+                    "A": "la condizione",
+                    "B": "i parametri in ingresso",
+                    "C": "l'output",
+                    "D": "il contatore"
+                },
+                "correct_answer": "A",
+                "section": "Iterazione"
+            },
+            {
+                "question": "Nella ripetizione \"per\" è solo possibile specificare come \"direzione\":",
+                "answers": {
+                    "A": "somma e sottrazione",
+                    "B": "modulo e divisore",
+                    "C": "solo l'incremento",
+                    "D": "incremento e decremento"
+                },
+                "correct_answer": "D",
+                "section": "Iterazione"
+            },
+            {
+                "question": "In Flowgorithm la ripetizione è identificata da una forma:",
+                "answers": {
+                    "A": "di un parallelepipedo",
+                    "B": "di un rettangolo",
+                    "C": "di un esagono",
+                    "D": "di un rombo"
+                },
+                "correct_answer": "C",
+                "section": "Iterazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "8: Flowgorithm - Esercizi",
+        "questions": [
+            {
+                "question": "Il seguente non è un numero sconnesso:",
+                "answers": {
+                    "A": "1234",
+                    "B": "5678",
+                    "C": "6767",
+                    "D": "5757"
+                },
+                "correct_answer": "D",
+                "section": "Numero Sconnesso"
+            },
+            {
+                "question": "Un numero è definito come sconnesso se per ogni sua cifra:",
+                "answers": {
+                    "A": "la cifra adiacente a destra dista al massimo 1",
+                    "B": "la cifra adiacente a sinistra dista al massimo 1",
+                    "C": "la cifra adiacente a destra e a sinistra dista al massimo 1",
+                    "D": "la somma delle cifre è un numero che termina con 1"
+                },
+                "correct_answer": "C",
+                "section": "Numero Sconnesso"
+            },
+            {
+                "question": "Il seguente è un numero sconnesso:",
+                "answers": {
+                    "A": "1357",
+                    "B": "2468",
+                    "C": "13",
+                    "D": "34543"
+                },
+                "correct_answer": "D",
+                "section": "Numero Sconnesso"
+            },
+            {
+                "question": "Il seguente è un numero sconnesso:",
+                "answers": {
+                    "A": "66666",
+                    "B": "32198633",
+                    "C": "345434543",
+                    "D": "2226"
+                },
+                "correct_answer": "C",
+                "section": "Numero Sconnesso"
+            },
+            {
+                "question": "Il seguente è un numero sconnesso:",
+                "answers": {
+                    "A": "1000",
+                    "B": "10",
+                    "C": "100",
+                    "D": "121"
+                },
+                "correct_answer": "D",
+                "section": "Numero Sconnesso"
+            },
+            {
+                "question": "Il seguente è un numero sconnesso:",
+                "answers": {
+                    "A": "200",
+                    "B": "500",
+                    "C": "101",
+                    "D": "57161"
+                },
+                "correct_answer": "C",
+                "section": "Numero Sconnesso"
+            }
+        ]
+    },
+    {
+        "chapter_title": "9: Replit - online IDE",
+        "questions": [
+            {
+                "question": "Replit è un:",
+                "answers": {
+                    "A": "IaaS",
+                    "B": "PaaS",
+                    "C": "CaaS",
+                    "D": "SaaS"
+                },
+                "correct_answer": "D",
+                "section": "Introduzione a Replit"
+            },
+            {
+                "question": "Gli ambienti di Replit sono chiamati:",
+                "answers": {
+                    "A": "workspace",
+                    "B": "workplace",
+                    "C": "workaround",
+                    "D": "placeholder"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione a Replit"
+            },
+            {
+                "question": "Quale dei seguenti non è un token in Pseudocode:",
+                "answers": {
+                    "A": "while",
+                    "B": "for",
+                    "C": "declare",
+                    "D": "initialize"
+                },
+                "correct_answer": "D",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "Quale dei seguenti non è un token in Pseudocode:",
+                "answers": {
+                    "A": "input",
+                    "B": "output",
+                    "C": "sum",
+                    "D": "integer"
+                },
+                "correct_answer": "C",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "Quale dei seguenti non è un token in Pseudocode:",
+                "answers": {
+                    "A": "boolean",
+                    "B": "integer",
+                    "C": "boolean",
+                    "D": "customtype"
+                },
+                "correct_answer": "D",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "In Pseudocode una funzione:",
+                "answers": {
+                    "A": "non è ammess",
+                    "B": "non deve restituire un valore",
+                    "C": "deve restituire un valore",
+                    "D": "È ammessa ma non può contenere parametri"
+                },
+                "correct_answer": "C",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "In Pseudocode un array:",
+                "answers": {
+                    "A": "non può ammettere integer",
+                    "B": "può ammettere integer",
+                    "C": "non deve essere più lungo di 10 elementi",
+                    "D": "ammette solo integer"
+                },
+                "correct_answer": "B",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "In Pseudocode le iterazioni ammesse sono:",
+                "answers": {
+                    "A": "for e while",
+                    "B": "solo il for",
+                    "C": "solo il while",
+                    "D": "non sono ammesse iterazioni"
+                },
+                "correct_answer": "A",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "In Pseudocode il for necessità:",
+                "answers": {
+                    "A": "la print",
+                    "B": "il next",
+                    "C": "il void",
+                    "D": "il declare"
+                },
+                "correct_answer": "B",
+                "section": "CIE Pseudocode template"
+            },
+            {
+                "question": "In Pseudocode il while necessità:",
+                "answers": {
+                    "A": "un output",
+                    "B": "un input",
+                    "C": "l'endwhile",
+                    "D": "il next"
+                },
+                "correct_answer": "C",
+                "section": "CIE Pseudocode template"
+            }
+        ]
+    },
+    {
+        "chapter_title": "10: Complessità degli algoritmi non ricorsivi",
+        "questions": [
+            {
+                "question": "Un caso medio è:",
+                "answers": {
+                    "A": "determinato dalla somma dei tempi d'esecuzione di tutte le istanze dei dati di ingresso, con ogni addendo moltiplicato per la probabilità di occorrenza della relativa istanza dei dati di ingresso",
+                    "B": "determinato dall'istanza dei dati di ingresso che minimizza il tempo d'esecuzione e quindi fornisce un limite inferiore alla quantità di risorse computazionali necessarie all'algoritmo",
+                    "C": "determinato dall'istanza dei dati di ingresso che massimizza il tempo d'esecuzione e quindi fornisce un limite superiore alla quantità di risorse computazionali necessarie all'algoritmo",
+                    "D": "la media del caso peggiore e migliore"
+                },
+                "correct_answer": "A",
+                "section": "Complessità asintotica"
+            },
+            {
+                "question": "In una sequenza di istruzioni, la complessità è:",
+                "answers": {
+                    "A": "un valore costante",
+                    "B": "la media O grande di tutte le sequenze",
+                    "C": "O grande del massimo delle funzioni relative a ciascuna sequenza",
+                    "D": "la somma delle sequenze"
+                },
+                "correct_answer": "C",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "Nel fattoriale non ricorsivo:",
+                "answers": {
+                    "A": "la complessità è O(n)",
+                    "B": "la complessità è O(n!)",
+                    "C": "la complessità è O(n^2)",
+                    "D": "la complessità è O(n^3)"
+                },
+                "correct_answer": "A",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "In Fibonacci non ricorsivo per n = 3:",
+                "answers": {
+                    "A": "la complessità è O(n!)",
+                    "B": "la complessità è O(n)",
+                    "C": "la complessità è O(n^2)",
+                    "D": "la complessità è O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "In Fibonacci non ricorsivo per n = 2:",
+                "answers": {
+                    "A": "la complessità è O(n)",
+                    "B": "la complessità è O(n^2)",
+                    "C": "la complessità è O(1)",
+                    "D": "la complessità è O(n^3)"
+                },
+                "correct_answer": "C",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "Nel calcolo del massimo non ricorsivo:",
+                "answers": {
+                    "A": "la complessità è O(n^3)",
+                    "B": "la complessità è O(n^2)",
+                    "C": "la complessità è O(1)",
+                    "D": "la complessità è O(n)"
+                },
+                "correct_answer": "D",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "Nel calcolo del massimo non ricorsivo, il caso peggiore ha complessità:",
+                "answers": {
+                    "A": "la complessità è O(n^3)",
+                    "B": "la complessità è O(n^2)",
+                    "C": "la complessità è O(1)",
+                    "D": "la complessità è O(n)"
+                },
+                "correct_answer": "D",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "Nel calcolo del massimo non ricorsivo, il caso migliore ha complessità:",
+                "answers": {
+                    "A": "la complessità è O(n^3)",
+                    "B": "la complessità è O(n^2)",
+                    "C": "la complessità è O(1)",
+                    "D": "la complessità è O(n)"
+                },
+                "correct_answer": "D",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "Nel calcolo del massimo non ricorsivo, avere il massimo in prima posizione:",
+                "answers": {
+                    "A": "comporta vantaggi alla complessità",
+                    "B": "non comporta vantaggi alla complessità",
+                    "C": "comporta un O(1)",
+                    "D": "comporta vantaggi in termini di spazio"
+                },
+                "correct_answer": "B",
+                "section": "Analisi di complessità - Esempi"
+            },
+            {
+                "question": "Nel calcolo del massimo non ricorsivo, avere il massimo in ultima posizione:",
+                "answers": {
+                    "A": "comporta vantaggi alla complessità",
+                    "B": "non comporta vantaggi alla complessità",
+                    "C": "comporta un O(1)",
+                    "D": "comporta vantaggi in termini di spazio"
+                },
+                "correct_answer": "B",
+                "section": "Analisi di complessità - Esempi"
+            }
+        ]
+    },
+    {
+        "chapter_title": "11: Complessità degli algoritmi ricorsivi",
+        "questions": [
+            {
+                "question": "Una equazione di ricorrenza esprime il tempo di esecuzione totale di un problema di dimensione n:",
+                "answers": {
+                    "A": "in funzione del tempo di esecuzione per input logaritmici",
+                    "B": "in funzione del tempo di esecuzione per input più costanti",
+                    "C": "in funzione del tempo di esecuzione per input più piccoli",
+                    "D": "in funzione del tempo di esecuzione per input più grandi"
+                },
+                "correct_answer": "C",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "La ricorrenza che si ottiene nel divide et impera è nella forma:",
+                "answers": {
+                    "A": "aT (n/b) + D(n) + C(n)",
+                    "B": "aT (n) + D(n) + C(n)",
+                    "C": "aT (n/b) + C(n)",
+                    "D": "T (n/b) + D(n)"
+                },
+                "correct_answer": "A",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "Nel mergesort, T(n):",
+                "answers": {
+                    "A": "È lineare",
+                    "B": "È logaritmico",
+                    "C": "È polinomiale",
+                    "D": "È esponenziale"
+                },
+                "correct_answer": "B",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "Nel divide et impera, D(n) è usato per indicare:",
+                "answers": {
+                    "A": "il tempo per combinare i sotto-problemi",
+                    "B": "la complessità",
+                    "C": "il tempo di calcolo geneale",
+                    "D": "il tempo per dividere il problema in sotto-problemi"
+                },
+                "correct_answer": "D",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "Nel divide et impera, C(n) è usato per indicare:",
+                "answers": {
+                    "A": "il tempo per combinare i sotto-problemi",
+                    "B": "la complessità",
+                    "C": "il tempo di calcolo geneale",
+                    "D": "il tempo per dividere il problema in sotto-problemi"
+                },
+                "correct_answer": "A",
+                "section": "Calcolo della complessità"
+            },
+            {
+                "question": "Nel metodo di sostituzione:",
+                "answers": {
+                    "A": "non ipotizziamo un limite e poi usiamo l'induzione matematica per dimostrare che la nostra ipotesi è corretta",
+                    "B": "ipotizziamo un limite e poi usiamo l'induzione matematica per dimostrare che la nostra ipotesi è corretta",
+                    "C": "non si fanno ipotesi",
+                    "D": "si ragiona per assurdo"
+                },
+                "correct_answer": "B",
+                "section": "Metodi di risoluzione delle ricorrenze"
+            },
+            {
+                "question": "L'ipotesi che si ottiene tramite un albero di ricorsione:",
+                "answers": {
+                    "A": "può essere usata nel metodo di sostituzione",
+                    "B": "non può essere usata nel metodo di sostituzione",
+                    "C": "viene usata per scartare altre soluzioni",
+                    "D": "non è considerata una ipotesi valida"
+                },
+                "correct_answer": "A",
+                "section": "Metodi di risoluzione delle ricorrenze"
+            },
+            {
+                "question": "Consideriamo T(n)=9T(n/3)+n:",
+                "answers": {
+                    "A": "T(n)=θ(n)",
+                    "B": "T(n)=O(n^2)",
+                    "C": "T(n)=θ(n^2)",
+                    "D": "T(n)=θ(n^3)"
+                },
+                "correct_answer": "C",
+                "section": "Metodi di risoluzione delle ricorrenze"
+            },
+            {
+                "question": "Nel teorema dell'esperto si confronta f(n) con:",
+                "answers": {
+                    "A": "n",
+                    "B": "n^(logb(a))",
+                    "C": "n^2",
+                    "D": "n^3"
+                },
+                "correct_answer": "B",
+                "section": "Metodi di risoluzione delle ricorrenze"
+            },
+            {
+                "question": "Nel teorema dell'esperto si hanno il seguenti numero di casi di analisi:",
+                "answers": {
+                    "A": "1",
+                    "B": "2",
+                    "C": "3",
+                    "D": "4"
+                },
+                "correct_answer": "C",
+                "section": "Metodi di risoluzione delle ricorrenze"
+            }
+        ]
+    },
+    {
+        "chapter_title": "12: Algoritmi per Array",
+        "questions": [
+            {
+                "question": "Le strutture nell'ambito della programmazione possono essere definite ad un livello astratto:",
+                "answers": {
+                    "A": "come liste",
+                    "B": "come insiemi di elementi dotati di opportune operazioni",
+                    "C": "come classi",
+                    "D": "come tipi di dati astratti"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Un array è un:",
+                "answers": {
+                    "A": "contenitore statico ed omogeneo di valori, variabili o oggetti",
+                    "B": "contenitore dinamico ed omogeneo di valori, variabili o oggetti",
+                    "C": "contenitore statico e non omogeneo di valori, variabili o oggetti",
+                    "D": "contenitore dinamico e non omogeneo di valori, variabili o oggetti"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Un array è detto statico perché:",
+                "answers": {
+                    "A": "a tempo di compilazione i suoi valori sono pari a 0",
+                    "B": "a tempo d'esecuzione i suoi valori non possono cambiare",
+                    "C": "i suoi elementi non variano di numero a tempo d'esecuzione",
+                    "D": "i suoi elementi possono variare di numero a tempo d'esecuzione"
+                },
+                "correct_answer": "C",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Un array è detto omogeneo perché:",
+                "answers": {
+                    "A": "i suoi elementi sono di tipo diverso",
+                    "B": "i suoi elementi non possono essere tutti dello stesso tipo",
+                    "C": "i suoi elementi possono essere tutti dello stesso tipo",
+                    "D": "i suoi elementi sono tutti dello stesso tipo"
+                },
+                "correct_answer": "D",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "L'operazione di lettura o modifica del valore di un elemento di un array ha complessità",
+                "answers": {
+                    "A": "polinomiale",
+                    "B": "O(1)",
+                    "C": "esponenziale",
+                    "D": "lineare"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Gli elementi di un array sono memorizzati:",
+                "answers": {
+                    "A": "consecutivamente",
+                    "B": "casualmente",
+                    "C": "in celle riservate",
+                    "D": "in base al contenuto"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "In un array, il problema della visita:",
+                "answers": {
+                    "A": "significa attraversare tutti i suoi elementi esattamente più volte",
+                    "B": "significa attraversare tutti i suoi elementi esattamente una volta",
+                    "C": "significa accedere almeno ad un suo elemento",
+                    "D": "significa potere accedere al primo e l'ultimo elemento"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Il Python:",
+                "answers": {
+                    "A": "supporta nativamente gli array",
+                    "B": "non supporta nativamente gli array",
+                    "C": "ammette array di lunghezza variabile",
+                    "D": "consente di definire array a run-time"
+                },
+                "correct_answer": "B",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Una Python List ammette:",
+                "answers": {
+                    "A": "dati non omogenei",
+                    "B": "solo dati omogenei",
+                    "C": "solo dati non omogenei",
+                    "D": "solo tipi di dato numerici"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Le prestazioni di un array in C++ rispetto ad una analoga Python list:",
+                "answers": {
+                    "A": "sono peggiori",
+                    "B": "sono identiche",
+                    "C": "sono migliori",
+                    "D": "sono a volte migliori ed a volte peggiori"
+                },
+                "correct_answer": "C",
+                "section": "C++ vs Python list"
+            }
+        ]
+    },
+    {
+        "chapter_title": "13: Gestione della memoria in C++",
+        "questions": [
+            {
+                "question": "In C/C++ vi sono a disposizione del programmatore, i seguenti pools di memoria:",
+                "answers": {
+                    "A": "dynamic, static",
+                    "B": "static, stack, heap",
+                    "C": "heap, stack",
+                    "D": "dynamic, heap"
+                },
+                "correct_answer": "B",
+                "section": "Pools di memoria"
+            },
+            {
+                "question": "Tipo di memoria che persiste per l'intera esecuzione del programma ed è utilizzata tipicamente per memorizzare variabili globali:",
+                "answers": {
+                    "A": "heap",
+                    "B": "static",
+                    "C": "stack",
+                    "D": "variable"
+                },
+                "correct_answer": "B",
+                "section": "Pools di memoria"
+            },
+            {
+                "question": "L'heap è gestito:",
+                "answers": {
+                    "A": "automaticamente",
+                    "B": "manualmente dal programmatore",
+                    "C": "dal sistema operativo",
+                    "D": "dallo stack"
+                },
+                "correct_answer": "B",
+                "section": "Pools di memoria"
+            },
+            {
+                "question": "L'allocazione dello stack:",
+                "answers": {
+                    "A": "È gestita dal compilatore",
+                    "B": "È gestita dal programmatore",
+                    "C": "È gestita dall'IDE",
+                    "D": "È gestita dall'heap"
+                },
+                "correct_answer": "A",
+                "section": "Pools di memoria"
+            },
+            {
+                "question": "Uno dei problemi dello stack è:",
+                "answers": {
+                    "A": "lentezza",
+                    "B": "costo",
+                    "C": "memory shortage",
+                    "D": "memory leak"
+                },
+                "correct_answer": "C",
+                "section": "Pools di memoria"
+            },
+            {
+                "question": "L'operatore & nei puntatori è usato:",
+                "answers": {
+                    "A": "per accedere all'oggetto riferito",
+                    "B": "per ottenere un valore in un array",
+                    "C": "per ottenere il valore di un oggetto",
+                    "D": "per ottenere l'indirizzo di un oggetto"
+                },
+                "correct_answer": "D",
+                "section": "Puntatore"
+            },
+            {
+                "question": "L'operatore * nei puntatori è usato:",
+                "answers": {
+                    "A": "per accedere all'oggetto riferito",
+                    "B": "per ottenere un valore in un array",
+                    "C": "per ottenere il valore di un oggetto",
+                    "D": "per ottenere l'indirizzo di un oggetto"
+                },
+                "correct_answer": "A",
+                "section": "Puntatore"
+            },
+            {
+                "question": "Gli operatori new e delete in C++ sono usati per:",
+                "answers": {
+                    "A": "gestire l'allocazione dinamica e la deallocazione degli oggetti",
+                    "B": "creare e distruggere un array",
+                    "C": "allocare e deallocare un array",
+                    "D": "creare e distruggere un oggetto dallo stack"
+                },
+                "correct_answer": "A",
+                "section": "Puntatore"
+            },
+            {
+                "question": "La dichiarazione di un puntatore comporta:",
+                "answers": {
+                    "A": "nessuna allocazione di memoria",
+                    "B": "allocazione di memoria per per la variabile puntata",
+                    "C": "allocazione di memoria per una variabile puntatore, ma non per la variabile puntata",
+                    "D": "allocazione di memoria per una variabile puntatore e per la variabile puntata"
+                },
+                "correct_answer": "C",
+                "section": "Array vs Puntatori"
+            },
+            {
+                "question": "La dichiarazione di un array comporta:",
+                "answers": {
+                    "A": "nessuna allocazione di memoria",
+                    "B": "allocazione di memoria per per la variabile puntata",
+                    "C": "allocazione di memoria per una variabile puntatore, ma non per la variabile puntata",
+                    "D": "allocazione di memoria non solo per una variabile puntatore, ma anche per l'area puntata"
+                },
+                "correct_answer": "D",
+                "section": "Array vs Puntatori"
+            }
+        ]
+    },
+    {
+        "chapter_title": "14: Il problema della ricerca nell'array",
+        "questions": [
+            {
+                "question": "Un array è statico:",
+                "answers": {
+                    "A": "sempre",
+                    "B": "può esserlo",
+                    "C": "non sempre",
+                    "D": "mai"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "Un array è omogeneo:",
+                "answers": {
+                    "A": "sempre",
+                    "B": "può esserlo",
+                    "C": "non sempre",
+                    "D": "mai"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "L'algoritmo di visita di un array è:",
+                "answers": {
+                    "A": "esponenziale",
+                    "B": "polinomiale",
+                    "C": "lineare",
+                    "D": "logaritmico"
+                },
+                "correct_answer": "C",
+                "section": "Introduzione alla struttura dati"
+            },
+            {
+                "question": "L'algoritmo di ricerca lineare in un array è:",
+                "answers": {
+                    "A": "polinomiale",
+                    "B": "esponenziale",
+                    "C": "logaritmico",
+                    "D": "lineare"
+                },
+                "correct_answer": "D",
+                "section": "Problema della ricerca - analisi in C++"
+            },
+            {
+                "question": "L'algoritmo di ricerca binaria in un array è:",
+                "answers": {
+                    "A": "sempre applicabile",
+                    "B": "applicabile solo se l'array è ordinato",
+                    "C": "applicabile solo se l'array è composto da un piccolo numero di elementi",
+                    "D": "non applicabile su array ordinati"
+                },
+                "correct_answer": "B",
+                "section": "Problema della ricerca - analisi in C++"
+            },
+            {
+                "question": "Il costo di un algoritmo di ricerca binaria è:",
+                "answers": {
+                    "A": "esponenziale",
+                    "B": "lineare",
+                    "C": "logaritmico",
+                    "D": "polinomiale"
+                },
+                "correct_answer": "B",
+                "section": "Problema della ricerca - analisi in C++"
+            },
+            {
+                "question": "Il costo di un algoritmo di ricerca lineare in C++ e Python è:",
+                "answers": {
+                    "A": "identico",
+                    "B": "differente: in C++ è più costoso",
+                    "C": "differente: in Python è più costoso",
+                    "D": "differente ma non si può affermare quale sia in assoluto il più costoso"
+                },
+                "correct_answer": "A",
+                "section": "Problema della ricerca - analisi in Python"
+            },
+            {
+                "question": "Il costo di un algoritmo di ricerca binaria in C++ e Python è:",
+                "answers": {
+                    "A": "identico",
+                    "B": "differente: in C++ è più costoso",
+                    "C": "differente: in Python è più costoso",
+                    "D": "differente ma non si può affermare quale sia in assoluto il più costoso"
+                },
+                "correct_answer": "A",
+                "section": "Problema della ricerca - analisi in Python"
+            },
+            {
+                "question": "Un algoritmo di ricerca binaria:",
+                "answers": {
+                    "A": "si può implementare solo in modalità iterativa",
+                    "B": "si può implementare solo in modalità ricorsiva",
+                    "C": "si può implementare in modalità ricorsiva ed iterativa",
+                    "D": "non può essere implementato ricorsivamente"
+                },
+                "correct_answer": "C",
+                "section": "Problema della ricerca - analisi in Python"
+            },
+            {
+                "question": "Gli Unit Tesrs in Python:",
+                "answers": {
+                    "A": "incrementano la complessità dell'algoritmo",
+                    "B": "non impattano sulla complessità dell'algoritmo",
+                    "C": "possono impattare sulla complessità dell'algoritmo",
+                    "D": "sono obbligatori"
+                },
+                "correct_answer": "B",
+                "section": "Problema della ricerca - analisi in Python"
+            }
+        ]
+    },
+    {
+        "chapter_title": "15: Il problema dell'ordinamento",
+        "questions": [
+            {
+                "question": "L'ordinamento di una sequenza di informazioni consiste nel disporre:",
+                "answers": {
+                    "A": "le stesse informazioni in modo in modalità randomica",
+                    "B": "le stess informazioni in ordine alfabetico",
+                    "C": "le stess informazioni in ordine numerico crescente",
+                    "D": "le stesse informazioni in modo da rispettare una qualche relazione d'ordine di tipo lineare"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Un algoritmo di ordinamento è stabile se:",
+                "answers": {
+                    "A": "altera l'ordine relativo di elementi dell'array aventi la stessa chiave",
+                    "B": "non altera l'ordine relativo di elementi dell'array aventi la stessa chiave",
+                    "C": "non altera l'ordine relativo di elementi dell'array",
+                    "D": "lavora solo su elementi aventi la stessa chiave"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Un algoritmo di ordinamento opera in place se:",
+                "answers": {
+                    "A": "la dimensione delle strutture ausiliarie di cui necessita dipende dal numero di elementi dell'array da ordinare",
+                    "B": "la dimensione delle strutture ausiliarie di cui necessita è linearmente proporzionale al numero di elementi dell'array da ordinare",
+                    "C": "se lavora su un set di chiavi",
+                    "D": "la dimensione delle strutture ausiliarie di cui necessita è indipendente dal numero di elementi dell'array da ordinare"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Gli algoritmi di Ordinamento Interno:",
+                "answers": {
+                    "A": "fanno uso di strutture dati allocate su disco",
+                    "B": "fanno uso di strutture dati allorate su memoria secondaria",
+                    "C": "fanno uso di strutture dati allocate in memoria centrale dell'elaboratore",
+                    "D": "fanno uso di strutture dati ibride"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Gli Algoritmi Semplici di Ordinamento presentano una complessità:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap sort:",
+                "answers": {
+                    "A": "non è molto efficiente",
+                    "B": "È molto efficiente",
+                    "C": "È costoso",
+                    "D": "È lineare"
+                },
+                "correct_answer": "B",
+                "section": "Algoritmi di ordinamento"
+            },
+            {
+                "question": "Merge sort:",
+                "answers": {
+                    "A": "È stabile ma non in place",
+                    "B": "non è stabile",
+                    "C": "non è stabile e non in place",
+                    "D": "È in place"
+                },
+                "correct_answer": "A",
+                "section": "Algoritmi di ordinamento"
+            },
+            {
+                "question": "Insertion sort:",
+                "answers": {
+                    "A": "È cubico",
+                    "B": "È polinomiale",
+                    "C": "È lineare",
+                    "D": "È quadratico"
+                },
+                "correct_answer": "D",
+                "section": "Algoritmi di ordinamento"
+            },
+            {
+                "question": "Selection sort:",
+                "answers": {
+                    "A": "È cubico",
+                    "B": "È polinomiale",
+                    "C": "È lineare",
+                    "D": "È quadratico"
+                },
+                "correct_answer": "D",
+                "section": "Algoritmi di ordinamento"
+            },
+            {
+                "question": "Bubble sort:",
+                "answers": {
+                    "A": "È cubico",
+                    "B": "È polinomiale",
+                    "C": "È lineare",
+                    "D": "È quadratico"
+                },
+                "correct_answer": "D",
+                "section": "Algoritmi di ordinamento"
+            }
+        ]
+    },
+    {
+        "chapter_title": "16: Selection Sort",
+        "questions": [
+            {
+                "question": "In selection Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In selection Sort la complessità ne caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In selection Sort la complessità ne caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È meglio di Merge Sort",
+                    "B": "È meglio di Heap Sort",
+                    "C": "È come Quick Sort",
+                    "D": "È meglio di Insertion Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È peggio di Insertion Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort nel caso medio:",
+                "answers": {
+                    "A": "È meglio di Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È come Bubble Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Selection Sort non è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "C",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Selection Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "17: Insertion Sort",
+        "questions": [
+            {
+                "question": "In Insertion Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Insertion Sort la complessità nel caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Insertion Sort la complessità nel caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È meglio di Merge Sort",
+                    "B": "È meglio di Heap Sort",
+                    "C": "È come Quick Sort",
+                    "D": "È meglio di Selection Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È peggio di Selection Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort nel caso medio:",
+                "answers": {
+                    "A": "È meglio di Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È come Bubble Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Insertion Sort è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "D",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Insertion Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "18: Bubble Sort",
+        "questions": [
+            {
+                "question": "In Bubble Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Bubble Sort la complessità nel caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Bubble Sort la complessità nel caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È meglio di Merge Sort",
+                    "B": "È meglio di Heap Sort",
+                    "C": "È come Quick Sort",
+                    "D": "È meglio di Selection Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È peggio di Selection Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort nel caso medio:",
+                "answers": {
+                    "A": "È meglio di Quick Sort",
+                    "B": "È meglio di Merge Sort",
+                    "C": "È meglio di Heap Sort",
+                    "D": "È come Selectio Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Bubble Sort è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "D",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Bubble Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "19: Merge Sort",
+        "questions": [
+            {
+                "question": "In Merge Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Merge Sort la complessità nel caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Merge Sort la complessità nel caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È peggio di Insertion Sort",
+                    "B": "È meglio di Heap Sort",
+                    "C": "È come Heap Sort",
+                    "D": "È peggio di Selection Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Heap Sort",
+                    "B": "È peggio di Insertion Sort",
+                    "C": "È peggio di Quick Sort",
+                    "D": "È peggio di Selection Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort nel caso medio:",
+                "answers": {
+                    "A": "È meglio di Quick Sort",
+                    "B": "È peggio di Insertion Sort",
+                    "C": "È peggio di Selection Sort",
+                    "D": "È come Quick Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Merge Sort è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "D",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Merge Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "20: Quick Sort",
+        "questions": [
+            {
+                "question": "In Quick Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Quick Sort la complessità nel caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Quick Sort la complessità nel caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È meglio di Merge Sort",
+                    "B": "È peggio di Heap Sort",
+                    "C": "È come Selection Sort",
+                    "D": "È meglio di Selection Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Bubble Sort",
+                    "B": "È meglio di Bubble Sort",
+                    "C": "È peggio di Bubble Sort",
+                    "D": "È meglio di Heap Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort nel caso medio:",
+                "answers": {
+                    "A": "È peggio di Selection Sort",
+                    "B": "È peggio di Merge Sort",
+                    "C": "È meglio di Merge Sort",
+                    "D": "È come Merge Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Quick Sort non è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "C",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Quick Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "21: Heap Sort",
+        "questions": [
+            {
+                "question": "In un albero completo:",
+                "answers": {
+                    "A": "tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 2",
+                    "B": "tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 3",
+                    "C": "tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 4",
+                    "D": "tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 5"
+                },
+                "correct_answer": "A",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "In un albero quasi completo:",
+                "answers": {
+                    "A": "l'ultimo livello ha sempre e solo uan foglia",
+                    "B": "tutti i livelli, tranne al più l'ultimo, sono completi",
+                    "C": "ogni nodo ha due foglie",
+                    "D": "ha profondità 2"
+                },
+                "correct_answer": "B",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Il grado di un albero indica:",
+                "answers": {
+                    "A": "la profondità",
+                    "B": "l'altezza",
+                    "C": "il numero di figli di uno specifico nodo",
+                    "D": "il livello di completezza"
+                },
+                "correct_answer": "C",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "In un albero heap, left(i) è pari a:",
+                "answers": {
+                    "A": "i",
+                    "B": "2i",
+                    "C": "3i",
+                    "D": "4i"
+                },
+                "correct_answer": "B",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Nel max-heap:",
+                "answers": {
+                    "A": "ogni elemento è minore o uguale al nodo figlio",
+                    "B": "ogni nodo ha 2 figli",
+                    "C": "la profondità è pari a 2",
+                    "D": "ogni elemento è minore o uguale al nodo padre"
+                },
+                "correct_answer": "D",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Nell'heap sort:",
+                "answers": {
+                    "A": "si può usare solo il max-heap",
+                    "B": "si può usare solo il min-heap",
+                    "C": "si può usare sia il max-heap che il min-heap",
+                    "D": "nella fase 1 si usa il max-heap e nella 2 il min-heap"
+                },
+                "correct_answer": "C",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Nella prima fase dell'heap sort, l'algoritmo permuta i valori contenuti negli elementi dell'array in modo tale che:",
+                "answers": {
+                    "A": "l'albero diventi completo",
+                    "B": "la nuova disposizione delle chiavi costituisca uno heap",
+                    "C": "la radice contenga il valore più basso",
+                    "D": "la profondità sia pari a 2"
+                },
+                "correct_answer": "B",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "In un albero heap, right(i) è pari a:",
+                "answers": {
+                    "A": "i+1",
+                    "B": "2i",
+                    "C": "2i+1",
+                    "D": "i"
+                },
+                "correct_answer": "C",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Nell'heap sort, le operazioni parent, left e right possono essere calcolate:",
+                "answers": {
+                    "A": "mediante la ricorsione",
+                    "B": "mediante una sola operazione",
+                    "C": "con complessità quadratica",
+                    "D": "attraverso il teorema dell'esperto"
+                },
+                "correct_answer": "B",
+                "section": "Heap Sort"
+            },
+            {
+                "question": "Nel min-heap:",
+                "answers": {
+                    "A": "la profondità è pari a 2",
+                    "B": "il più piccolo elemento non può essere nella radice",
+                    "C": "il più piccolo elemento è in una delle foglie",
+                    "D": "il più piccolo elemento è nella radice"
+                },
+                "correct_answer": "D",
+                "section": "Heap Sort"
+            }
+        ]
+    },
+    {
+        "chapter_title": "22: Heap Sort - Implementazione",
+        "questions": [
+            {
+                "question": "In Heap Sort la complessità nel caso migliore è:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "quadratica",
+                    "C": "cubica",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Heap Sort la complessità nel caso medio è:",
+                "answers": {
+                    "A": "cubica",
+                    "B": "logaritmica",
+                    "C": "lineare",
+                    "D": "quadratica"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "In Heap Sort la complessità nel caso peggiore è:",
+                "answers": {
+                    "A": "quadratica",
+                    "B": "logaritmica",
+                    "C": "cubica",
+                    "D": "lineare"
+                },
+                "correct_answer": "B",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort è in generale:",
+                "answers": {
+                    "A": "instabile",
+                    "B": "stabile",
+                    "C": "stabile solo nel caso peggiore",
+                    "D": "stabile solo nel caso migliore"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È peggio di Bubble Sort",
+                    "B": "È peggio di Merge Sort",
+                    "C": "È come Merge Sort",
+                    "D": "È meglio di Merge Sort"
+                },
+                "correct_answer": "C",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort nel caso peggiore:",
+                "answers": {
+                    "A": "È come Merge Sort",
+                    "B": "È peggio di Bubble Sort",
+                    "C": "È peggio di Quick Sort",
+                    "D": "È meglio di Selection Sort"
+                },
+                "correct_answer": "A",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort nel caso medio:",
+                "answers": {
+                    "A": "È peggio di Selection Sort",
+                    "B": "È peggio di Bubble Sort",
+                    "C": "È meglio di Insertion Sort",
+                    "D": "È come Merge Sort"
+                },
+                "correct_answer": "D",
+                "section": "Il problema dell'ordinamento"
+            },
+            {
+                "question": "Heap Sort non è stabile perché:",
+                "answers": {
+                    "A": "ha una complessità logaritmica",
+                    "B": "È in place",
+                    "C": "altera gli elementi chiave",
+                    "D": "non altera gli elementi chiave"
+                },
+                "correct_answer": "C",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Heap Sort è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            }
+        ]
+    },
+    {
+        "chapter_title": "23: Strutture Dati",
+        "questions": [
+            {
+                "question": "Una struttura dati:",
+                "answers": {
+                    "A": "È sinonimo di insieme",
+                    "B": "fornisce una rappresentazione organizzata e logica dei dati all'interno di un insieme",
+                    "C": "È un insieme a cui sono stati applicati dei criteri di ordinamento",
+                    "D": "È una collezione di insiemi"
+                },
+                "correct_answer": "B",
+                "section": "Introduzione alle strutture dati"
+            },
+            {
+                "question": "Una struttura dinamica è una struttura che è pensata:",
+                "answers": {
+                    "A": "per aggiungere o togliere elementi durante l'esecuzione di un algoritmo",
+                    "B": "solo per aggiungere elementi",
+                    "C": "solo per togliere elementi",
+                    "D": "solo per visualizzare elementi"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alle strutture dati"
+            },
+            {
+                "question": "Se non si possono cioè fare ipotesi sulla posizione fisica degli elementi in memoria si dice",
+                "answers": {
+                    "A": "compatta",
+                    "B": "dinamica",
+                    "C": "sparsa",
+                    "D": "ordinata"
+                },
+                "correct_answer": "C",
+                "section": "Introduzione alle strutture dati"
+            },
+            {
+                "question": "Un array è una struttura:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "non lineare",
+                    "C": "sparsa",
+                    "D": "dinamica"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione alle strutture dati"
+            },
+            {
+                "question": "Le tipiche operazioni su un insieme dinamico sono:",
+                "answers": {
+                    "A": "query",
+                    "B": "modifica",
+                    "C": "ricerca",
+                    "D": "query e modifica"
+                },
+                "correct_answer": "D",
+                "section": "Insieme dinamico"
+            },
+            {
+                "question": "Una struttura dati concreta:",
+                "answers": {
+                    "A": "È una struttura astratta",
+                    "B": "ha una sola modalità di rappresentazione",
+                    "C": "È l'implementazione di una struttura astratta",
+                    "D": "non ammette un corrispettivo astratto"
+                },
+                "correct_answer": "C",
+                "section": "Insieme dinamico"
+            },
+            {
+                "question": "Una chiave consente:",
+                "answers": {
+                    "A": "di identificare univocamente i dati in una struttura",
+                    "B": "di accedere a 2 elementi contemporaneamente",
+                    "C": "di accedere a 3 elementi contemporaneamente",
+                    "D": "di accedere ad n elementi contemporaneamente"
+                },
+                "correct_answer": "A",
+                "section": "Insieme dinamico"
+            },
+            {
+                "question": "Nelle strutture dati dinamiche i puntatori:",
+                "answers": {
+                    "A": "non vengono utilizzati",
+                    "B": "non possono essere utilizzati",
+                    "C": "sono obsoleti",
+                    "D": "vengono utilizzati per collegare gli elementi tra loro"
+                },
+                "correct_answer": "C",
+                "section": "Puntatore"
+            },
+            {
+                "question": "In Python, tutte le variabili:",
+                "answers": {
+                    "A": "sono intere",
+                    "B": "sono puntatori impliciti",
+                    "C": "sono oggetti",
+                    "D": "sono astratte"
+                },
+                "correct_answer": "B",
+                "section": "Puntatore"
+            },
+            {
+                "question": "In Python, quando si assegna un valore a una variabile:",
+                "answers": {
+                    "A": "si alloca lo spazio di memoria",
+                    "B": "si crea una variabile",
+                    "C": "si elimina il valore temporaneo in memoria",
+                    "D": "si sta creando un riferimento all'oggetto in memoria"
+                },
+                "correct_answer": "D",
+                "section": "Puntatore"
+            }
+        ]
+    },
+    {
+        "chapter_title": "24: Liste",
+        "questions": [
+            {
+                "question": "Rispetto alla tassonomia classica, una lista risulta:",
+                "answers": {
+                    "A": "dinamica, sparsa, ordinata",
+                    "B": "statica, sparsa, ordinata",
+                    "C": "statica, compatta, ordinata",
+                    "D": "dinamica, compatta, ordinata"
+                },
+                "correct_answer": "A",
+                "section": "Introduzione"
+            },
+            {
+                "question": "Nelle liste, il puntatore:",
+                "answers": {
+                    "A": "non si usa",
+                    "B": "È fortemente sconsigliato",
+                    "C": "È usato per l'implementazione",
+                    "D": "sono preferite altre strutture"
+                },
+                "correct_answer": "C",
+                "section": "Introduzione"
+            },
+            {
+                "question": "Gli elementi di una lista:",
+                "answers": {
+                    "A": "sono memorizzati in modo consecutivo",
+                    "B": "non sono necessariamente memorizzati in modo consecutivo",
+                    "C": "sono memorizzati esclusivamente in modo consecutivo",
+                    "D": "sono necessariamente memorizzati in modo consecutivo"
+                },
+                "correct_answer": "B",
+                "section": "Lista"
+            },
+            {
+                "question": "Una lista è un multi-insieme, cioè:",
+                "answers": {
+                    "A": "non ci possono essere ripetizioni del medesimo elemento",
+                    "B": "gli elementi sono tutti distinti",
+                    "C": "ci possono essere al più 2 ripetizioni per elemento",
+                    "D": "ci possono essere ripetizioni del medesimo elemento"
+                },
+                "correct_answer": "D",
+                "section": "Lista"
+            },
+            {
+                "question": "Dati una lista e un valore, stabilire se il valore è contenuto in un elemento della lista, riportando in caso affermativo l'indirizzo di tale elemento:",
+                "answers": {
+                    "A": "È il problema della ricerca",
+                    "B": "È il problema della visita",
+                    "C": "È il problema dell'inserimento",
+                    "D": "È il problema della cancellazione"
+                },
+                "correct_answer": "A",
+                "section": "Lista"
+            },
+            {
+                "question": "Una lista dinamica può essere rappresentata tramite:",
+                "answers": {
+                    "A": "array",
+                    "B": "puntatori",
+                    "C": "array e puntatori",
+                    "D": "variabili"
+                },
+                "correct_answer": "B",
+                "section": "Lista"
+            },
+            {
+                "question": "La ricerca di un elemento in una lista:",
+                "answers": {
+                    "A": "È un problema di visita",
+                    "B": "È un problema di ricerca",
+                    "C": "È un problema di inserimento",
+                    "D": "È un problema di cancellazione"
+                },
+                "correct_answer": "A",
+                "section": "Lista"
+            },
+            {
+                "question": "Malloc() in C ha come analoga in C++:",
+                "answers": {
+                    "A": "create",
+                    "B": "new",
+                    "C": "malloc",
+                    "D": "main"
+                },
+                "correct_answer": "B",
+                "section": "Gestione della memoria dinamica"
+            },
+            {
+                "question": "Free() in C ha come analoga in C++:",
+                "answers": {
+                    "A": "free",
+                    "B": "destroy",
+                    "C": "delete",
+                    "D": "cancel"
+                },
+                "correct_answer": "C",
+                "section": "Gestione della memoria dinamica"
+            },
+            {
+                "question": "Se non si libera la memoria allocata dinamicamente:",
+                "answers": {
+                    "A": "si può riusare la stessa memoria",
+                    "B": "si mantiene costante il tempo di esecuzione",
+                    "C": "si determina uno stack overflow",
+                    "D": "si rischia un memory leak"
+                },
+                "correct_answer": "D",
+                "section": "Gestione della memoria dinamica"
+            }
+        ]
+    },
+    {
+        "chapter_title": "25: Liste - Implementazione",
+        "questions": [
+            {
+                "question": "In una lista realizzata con raw pointers, ciascun elemento della lista è una struttura di due campi, di cui uno rappresenta il valore dell'elemento:",
+                "answers": {
+                    "A": "È di tipo numerico",
+                    "B": "l'altro è di tipo puntatore e punta a NULL",
+                    "C": "l'altro è di tipo puntatore e punta all'elemento successivo nella lista",
+                    "D": "l'altro è di tipo puntatore e punta al primo nella lista"
+                },
+                "correct_answer": "C",
+                "section": "Lista"
+            },
+            {
+                "question": "In una lista implementata tramite puntatori, la memoria utilizzata:",
+                "answers": {
+                    "A": "viene gestita dinamicamente ed è esattamente proporzionale al numero degli elementi della lista",
+                    "B": "viene gestita dinamicamente ed è costante",
+                    "C": "È di lunghezza costante",
+                    "D": "viene gestita dinamicamente e non è proporzionale al numero degli elementi della lista"
+                },
+                "correct_answer": "A",
+                "section": "Lista"
+            },
+            {
+                "question": "In una lista di puntatori:",
+                "answers": {
+                    "A": "si ha la necessità dell'indirizzo dell'ultimo elemento della lista",
+                    "B": "non si ha la necessità dell'indirizzo del primo elemento della lista",
+                    "C": "si ha la necessità dell'indirizzo di un elemento qualsiasi della lista",
+                    "D": "si ha la necessità dell'indirizzo del primo elemento della lista"
+                },
+                "correct_answer": "D",
+                "section": "Lista"
+            },
+            {
+                "question": "In una lista di puntatori posso inserire un nuovo elemento:",
+                "answers": {
+                    "A": "sia in testa che in coda",
+                    "B": "solo in testa",
+                    "C": "solo in coda",
+                    "D": "subito dopo il primo elemento"
+                },
+                "correct_answer": "A",
+                "section": "Operazioni sulla lista"
+            },
+            {
+                "question": "In una lista di puntatori la visita può essere implementata:",
+                "answers": {
+                    "A": "solo in maniera ricorsiva",
+                    "B": "solo in maniera iterativa",
+                    "C": "in maniera iterativa o ricorsiva",
+                    "D": "partendo dall'ultimo elemento"
+                },
+                "correct_answer": "C",
+                "section": "Operazioni sulla lista"
+            },
+            {
+                "question": "In una heap corruption:",
+                "answers": {
+                    "A": "riferimenti a memoria precedentemente rilasciata non restano accessibili da parti del programma ancora in esecuzione",
+                    "B": "riferimenti a memoria non rilasciata restano accessibili da parti del programma ancora in esecuzione",
+                    "C": "riferimenti a memoria non rilasciata restano accessibili dall'heap",
+                    "D": "riferimenti a memoria precedentemente rilasciata restano accessibili da parti del programma ancora in esecuzione"
+                },
+                "correct_answer": "D",
+                "section": "Implementazione con smart pointers"
+            },
+            {
+                "question": "In uno smart pointer:",
+                "answers": {
+                    "A": "c'è una gestione manuale della memoria",
+                    "B": "il comportamento è analogo ai raw pointers in termini di gestione della memoria",
+                    "C": "c'è l'aggiunta dell'informazione necessaria per capire quando la risorsa può essere rilasciata",
+                    "D": "non c'è l'aggiunta dell'informazione necessaria per capire quando la risorsa può essere rilasciata"
+                },
+                "correct_answer": "C",
+                "section": "Implementazione con smart pointers"
+            },
+            {
+                "question": "Negli smart pointers:",
+                "answers": {
+                    "A": "c'è una gestione manuale della memoria",
+                    "B": "È contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà più accedere alla memoria puntata",
+                    "C": "non è contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà più accedere alla memoria puntata",
+                    "D": "può essere contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà più accedere alla memoria puntata"
+                },
+                "correct_answer": "B",
+                "section": "Implementazione con smart pointers"
+            },
+            {
+                "question": "La ricerca di un elemento in una lista di puntatori ha complessità:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "esponenziale",
+                    "C": "quadratica",
+                    "D": "costante"
+                },
+                "correct_answer": "A",
+                "section": "Analisi della complessità"
+            },
+            {
+                "question": "L'inserimento di un elemento in una lista di puntatori ha complessità:",
+                "answers": {
+                    "A": "lineare",
+                    "B": "esponenziale",
+                    "C": "quadratica",
+                    "D": "costante"
+                },
+                "correct_answer": "A",
+                "section": "Analisi della complessità"
+            }
+        ]
+    },
+    {
+        "chapter_title": "26: Stack",
+        "questions": [
+            {
+                "question": "La pila è un sistema:",
+                "answers": {
+                    "A": "LILO",
+                    "B": "LIFO",
+                    "C": "FIFO",
+                    "D": "FILO"
+                },
+                "correct_answer": "B",
+                "section": "Pila/Stack"
+            },
+            {
+                "question": "La funzione push in una pila:",
+                "answers": {
+                    "A": "inserisce un elemento in testa",
+                    "B": "inserisce un elemento in coda",
+                    "C": "elimina l'elemento in testa",
+                    "D": "elimina l'elemento in coda"
+                },
+                "correct_answer": "A",
+                "section": "Pila/Stack"
+            },
+            {
+                "question": "La funzione pop in una pila:",
+                "answers": {
+                    "A": "inserisce un elemento in testa",
+                    "B": "inserisce un elemento in coda",
+                    "C": "elimina l'elemento in testa",
+                    "D": "elimina l'elemento in coda"
+                },
+                "correct_answer": "C",
+                "section": "Pila/Stack"
+            },
+            {
+                "question": "La scelta della struttura dati per implementare una pila:",
+                "answers": {
+                    "A": "ricade esclusivamente negli array",
+                    "B": "ricade esclusivamente nei puntatori",
+                    "C": "ricade negli array o nei puntatori a seconda dello scenario",
+                    "D": "dipende dal linguaggio di programmazione"
+                },
+                "correct_answer": "C",
+                "section": "Pila/Stack"
+            },
+            {
+                "question": "Una pila:",
+                "answers": {
+                    "A": "non può essere usata per la valutazione di una espressione",
+                    "B": "può essere usata per la valutazione di una espressione",
+                    "C": "può essere usata per la scrittura di una espressione",
+                    "D": "può essere usata per la costruzione di una espressione"
+                },
+                "correct_answer": "B",
+                "section": "Esempio di applicazione"
+            },
+            {
+                "question": "L'implementazione di una pila tramite array prevede:",
+                "answers": {
+                    "A": "la conoscenza del numero massimo di elementi che la pila può contenere",
+                    "B": "la conoscenza del numero minimo di elementi che la pila può contenere",
+                    "C": "che l'array abbia lunghezza non definita",
+                    "D": "che l'array abbia lunghezza nulla"
+                },
+                "correct_answer": "A",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Non è possibile accedere direttamente agli elementi all'interno della pila senza rimuoverli:",
+                "answers": {
+                    "A": "È un'affermazione falsa",
+                    "B": "È un'affermazione vera",
+                    "C": "non si applica alla struttura dati pila",
+                    "D": "È un'affermazione incompleta"
+                },
+                "correct_answer": "B",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Le operazioni di base su una pila hanno complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Complessità"
+            },
+            {
+                "question": "L'operazione di push in una pila ha complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Complessità"
+            },
+            {
+                "question": "L'operazione di pop in una pila ha complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Complessità"
+            }
+        ]
+    },
+    {
+        "chapter_title": "27: Coda",
+        "questions": [
+            {
+                "question": "La coda è un sistema:",
+                "answers": {
+                    "A": "LILO",
+                    "B": "LIFO",
+                    "C": "FIFO",
+                    "D": "FILO"
+                },
+                "correct_answer": "C",
+                "section": "Coda"
+            },
+            {
+                "question": "La funzione EnQueue in una coda:",
+                "answers": {
+                    "A": "inserisce un elemento in testa",
+                    "B": "inserisce un elemento in coda",
+                    "C": "elimina l'elemento in testa",
+                    "D": "elimina l'elemento in coda"
+                },
+                "correct_answer": "B",
+                "section": "Coda"
+            },
+            {
+                "question": "La funzione DeQueue in una coda:",
+                "answers": {
+                    "A": "inserisce un elemento in testa",
+                    "B": "inserisce un elemento in coda",
+                    "C": "elimina l'elemento in testa",
+                    "D": "elimina l'elemento in coda"
+                },
+                "correct_answer": "C",
+                "section": "Coda"
+            },
+            {
+                "question": "La scelta della struttura dati per implementare una coda:",
+                "answers": {
+                    "A": "ricade esclusivamente negli array",
+                    "B": "ricade esclusivamente nei puntatori",
+                    "C": "ricade negli array o nei puntatori a seconda dello scenario",
+                    "D": "dipende dal linguaggio di programmazione"
+                },
+                "correct_answer": "C",
+                "section": "Coda"
+            },
+            {
+                "question": "Una coda circolare:",
+                "answers": {
+                    "A": "supera il problema dello shift dei valori in un array quando c'è una DeQueue",
+                    "B": "non supera il problema dello shift dei valori in un array quando c'è una DeQueue",
+                    "C": "È meno efficiente della soluzione basata su un array in cui si esegue lo shift dei valori quando avviene una DeQueue",
+                    "D": "non è una soluzione efficiente rispetto all'array standard in cui si esegue lo shift dei valori quando"
+                },
+                "correct_answer": "A",
+                "section": "Coda"
+            },
+            {
+                "question": "L'implementazione di una coda circolare:",
+                "answers": {
+                    "A": "non può avvenire tramite array",
+                    "B": "può avvenire tramite 2 variabili head e tail",
+                    "C": "può avvenire con array ed una sola variabile che gestisce la testa della coda",
+                    "D": "può avvenire tramite array con 2 variabili che mantengono i valori di head e tail"
+                },
+                "correct_answer": "D",
+                "section": "Implementazione"
+            },
+            {
+                "question": "L'implementazione di una coda in C++ può avvenire tramite:",
+                "answers": {
+                    "A": "la classe stack",
+                    "B": "la classe pila",
+                    "C": "la classe queue",
+                    "D": "la classe tree"
+                },
+                "correct_answer": "C",
+                "section": "Implementazione"
+            },
+            {
+                "question": "Le operazioni di base su una coda circolare hanno complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Complessità"
+            },
+            {
+                "question": "Le operazioni di base su una coda non circolare hanno complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "A",
+                "section": "Complessità"
+            },
+            {
+                "question": "L'operazione di EnQueue in una coda circolare ha complessità:",
+                "answers": {
+                    "A": "O(n)",
+                    "B": "O(1)",
+                    "C": "O(n^2)",
+                    "D": "O(n^3)"
+                },
+                "correct_answer": "B",
+                "section": "Complessità"
+            }
+        ]
+    },
+    {
+        "chapter_title": "28: AUTOVALUTAZIONE",
+        "questions": [
+            {
+                "question": "Selection Sort è in place:",
+                "answers": {
+                    "A": "si",
+                    "B": "no",
+                    "C": "non è possibile stabilirlo con certezza",
+                    "D": "logaritmica"
+                },
+                "correct_answer": "A",
+                "section": "7048"
+            },
+            {
+                "question": "La notazione asintotica O:",
+                "answers": {
+                    "A": "rappresenta un limite inferiore asintotico",
+                    "B": "rappresenta un limite superiore asintotico",
+                    "C": "rappresenta un limite stretto asintotico",
+                    "D": "non rappresenta un limite"
+                },
+                "correct_answer": "B",
+                "section": "7068"
+            },
+            {
+                "question": "Il costo di un algoritmo di ricerca binaria è:",
+                "answers": {
+                    "A": "esponenziale",
+                    "B": "lineare",
+                    "C": "logaritmico",
+                    "D": "polinomiale"
+                },
+                "correct_answer": "C",
+                "section": "7082"
+            },
+            {
+                "question": "Nelle strutture dati dinamiche i puntatori:",
+                "answers": {
+                    "A": "non vengono utilizzati",
+                    "B": "non possono essere utilizzati",
+                    "C": "sono obsoleti",
+                    "D": "vengono utilizzati per collegare gli elementi tra loro"
+                },
+                "correct_answer": "D",
+                "section": "7083"
+            },
+            {
+                "question": "Merge Sort non è in place perché:",
+                "answers": {
+                    "A": "non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "B": "introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array",
+                    "C": "dipende dalla grandezza dell'array",
+                    "D": "ha una complessità logaritmica"
+                },
+                "correct_answer": "B",
+                "section": "7085"
+            }
+        ]
+    }
+]

@@ -1,11 +1,11 @@
 import json
 
 # Leggi il contenuto del file di testo
-with open('PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt', 'r') as file:
+with open('PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt', 'r', encoding='utf-8') as file:
     txt_content = file.read()
 
 # Dividi il contenuto in capitoli
-chapters = txt_content.split(" Capitolo ID ")
+chapters = txt_content.split("Capitolo ID ")
 
 # Inizializza una lista per memorizzare i capitoli
 chapter_list = []
@@ -21,13 +21,13 @@ for chapter in chapters[1:]:
     while i < len(lines):
         line = lines[i].strip()
         if line and line[0].isdigit():
-            question_text = line.split(":")[1].strip()
+            question_text = line.split(" ", 1)[1].strip()  # Prendi il testo dopo il numero e il punto
             answers = {}
             correct_answer = ""
             section = ""
 
             # Raccogli le risposte e altri dettagli
-            while i + 1 < len(lines) and not lines[i + 1][0].isdigit():
+            while i + 1 < len(lines) and lines[i + 1] and not lines[i + 1][0].isdigit():
                 i += 1
                 answer_line = lines[i].strip()
                 if answer_line.startswith("A."):
