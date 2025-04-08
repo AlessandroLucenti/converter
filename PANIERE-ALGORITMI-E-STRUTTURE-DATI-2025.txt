@@ -8,7 +8,6 @@ D. una soluzione
 Risposta corretta: C
 Argomento: Problema e soluzione
 
-
 2. Cos'è una istanza:
 A. un particolare input ad un problema
 B. un tipo di problema
@@ -16,7 +15,6 @@ C. una soluzione al problema
 D. un valore specifico
 Risposta corretta: A
 Argomento: Problema e soluzione
-
 
 3. Cos'è un algoritmo:
 A. un insieme di soluzioni
@@ -26,7 +24,6 @@ D. una sequenza di istruzioni che istruiscono sull'esecuzione di un determinato 
 Risposta corretta: D
 Argomento: Cos'è un algoritmo
 
-
 4. Chi è l'esecutore dell'algoritmo:
 A. chi realizza l'algoritmo
 B. l'utente generico che esegue l'algoritmo
@@ -34,7 +31,6 @@ C. chi esegue l'algoritmo e conosce il linguaggio con il quale è stato scritto
 D. chi implementa l'algoritmo
 Risposta corretta: C
 Argomento: Cos'è un algoritmo
-
 
 5. La seguente frase è "ambigua":
 A. il valore esatto è 5
@@ -44,7 +40,6 @@ D. 20g di sale
 Risposta corretta: B
 Argomento: Cos'è un algoritmo
 
-
 6. La pragmatica indica:
 A. lo studio del miglior modo per esprimere un concetto
 B. una serie di regole
@@ -52,7 +47,6 @@ C. la sintassi
 D. la semantica
 Risposta corretta: A
 Argomento: Cos'è un algoritmo
-
 
 7. Il determinismo indica:
 A. uno stato mentale
@@ -62,7 +56,6 @@ D. stesso risultato indipendentemente dall'esecutore
 Risposta corretta: D
 Argomento: Proprietà di un algoritmo
 
-
 8. Nella selezione:
 A. esistono due condizioni da valutare e due possibili gruppi di istruzioni da eseguire
 B. esiste una condizione da valutare e due possibili gruppi di istruzioni da eseguire
@@ -70,7 +63,6 @@ C. esiste una condizione da valutare ed una possibile istruzione da eseguire
 D. si esegue il valore TRUE
 Risposta corretta: B
 Argomento: Proprietà di un algoritmo
-
 
 9. L'assegnazione:
 A. modifica il valore di una variabile
@@ -80,7 +72,6 @@ D. È un valore intero
 Risposta corretta: A
 Argomento: Proprietà di un algoritmo
 
-
 10. Qualunque algoritmo può essere implementato usando le sole seguenti strutture:
 A. assegnazione, input ed output
 B. assegnazione, selezione ed iterazione
@@ -89,7 +80,7 @@ D. selezione, sequenza ed input
 Risposta corretta: C
 Argomento: Teorema di Bohm-Jacopini
 
- Capitolo ID 2: Pseudocodice e flowchart
+Capitolo ID 2: Pseudocodice e flowchart
 1. Nella tesi di Church-Turing:
 A. tutti i linguaggi sufficientemente espressivi sono ugualmente espressivi
 B. tutti i linguaggi sono identici
@@ -97,7 +88,6 @@ C. tutti i linguaggi sono diversamente espressivi
 D. i linguaggi non espressivi sono privilegiati
 Risposta corretta: A
 Argomento: Flowchart
-
 
 2. La sequenza delle operazioni è rappresentata da:
 A. rombi
@@ -107,7 +97,6 @@ D. frecce
 Risposta corretta: D
 Argomento: Flowchart
 
-
 3. Un comando di output:
 A. valuta un'espressione
 B. valuta un'espressione e poi visualizza il risultato sullo schermo
@@ -115,7 +104,6 @@ C. visualizza il risultato sullo schermo
 D. legge un valore in ingresso
 Risposta corretta: B
 Argomento: Flowchart
-
 
 4. Un comando di input:
 A. genera un input
@@ -125,7 +113,6 @@ D. legge da una variabile
 Risposta corretta: C
 Argomento: Flowchart
 
-
 5. Nella selezione, in funzione del valore della condizione, si sceglie un blocco oppure l'altro:
 A. sempre
 B. mai
@@ -133,7 +120,6 @@ C. a seconda dell'input
 D. a seconda del valore della variabile condizione
 Risposta corretta: A
 Argomento: Flowchart
-
 
 6. Nell'assegnazione:
 A. si modifica il valore di una variabile
@@ -143,7 +129,6 @@ D. si legge da tastiera
 Risposta corretta: A
 Argomento: Flowchart
 
-
 7. While {condizione} do {corpo} end while:
 A. indica una iterazione
 B. indica una selezione
@@ -151,7 +136,6 @@ C. indica un'assegnazione
 D. indica un input
 Risposta corretta: A
 Argomento: Pseudocodice
-
 
 8. Fun(arg1, arg2 ...):
 A. indica una iterazione
@@ -161,7 +145,6 @@ D. indica un'assegnazione
 Risposta corretta: C
 Argomento: Pseudocodice
 
-
 9. Il seguente pseudocodice (a, b) < - (b,a):
 A. indica una somma
 B. indica una selezione
@@ -169,7 +152,6 @@ C. indica uno scambio del valore delle variabili
 D. indica una iterazione
 Risposta corretta: C
 Argomento: Pseudocodice
-
 
 10. Il seguente pseudocodice arr[{espr}]:
 A. indica un array
@@ -179,7 +161,7 @@ D. indica la lunghezza dell'array
 Risposta corretta: B
 Argomento: Pseudocodice
 
- Capitolo ID 3: Un problema, due algoritmi
+Capitolo ID 3: Un problema, due algoritmi
 1. Nella ricerca sequenziale di un elemento in un array di n elementi:
 A. la complessità è proporzionale ad n
 B. la complessità non è proporzionale ad n
@@ -187,7 +169,6 @@ C. la complessità è pari ad n*n
 D. la complessità è logaritmica
 Risposta corretta: A
 Argomento: Presentazione del problema e soluzione naive
-
 
 2. Nella ricerca sequenziale di un elemento in un array di n elementi:
 A. l'array deve essere ordinato
@@ -197,7 +178,6 @@ D. l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale
 Risposta corretta: D
 Argomento: Presentazione del problema e soluzione naive
 
-
 3. Nella ricerca binaria:
 A. l'array deve essere ordinato
 B. l'array può essere ordinato
@@ -205,7 +185,6 @@ C. l'array non deve essere ordinato
 D. l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale
 Risposta corretta: A
 Argomento: Soluzione efficiente
-
 
 4. Nella ricerca binaria:
 A. la complessità è proporzionale ad n
@@ -215,7 +194,6 @@ D. la complessità è logaritmica
 Risposta corretta: D
 Argomento: Soluzione efficiente
 
-
 5. Nella ricerca binaria:
 A. l'algoritmo è ricorsivo
 B. l'algoritmo non è ricorsivo
@@ -223,7 +201,6 @@ C. l'algoritmo non deve essere ricorsivo
 D. l'algoritmo ricorsivo è fortemente sconsigliato
 Risposta corretta: A
 Argomento: Soluzione efficiente
-
 
 6. Nella ricerca binaria, la procedura ricorsiva:
 A. non lavora su sottoinsiemi dell'array
@@ -233,7 +210,6 @@ D. costruisce un nuovo array
 Risposta corretta: B
 Argomento: Soluzione efficiente
 
-
 7. Nell'analisi di un algorimo è importante considerare correttezza, completezza e:
 A. determinismo
 B. complessità
@@ -241,7 +217,6 @@ C. fattibilità
 D. risolvibilità
 Risposta corretta: B
 Argomento: Introduzione al concetto di complessità
-
 
 8. Un algoritmo è corretto quando:
 A. restituisce almeno una risposta corretta
@@ -251,7 +226,6 @@ D. restituisce una risposta corretta se gli input sono ben strutturati
 Risposta corretta: C
 Argomento: Introduzione al concetto di complessità
 
-
 9. Fornire la complessità dell'algoritmo corretto:
 A. significa fornire il tempo di calcolo dell'algoritmo
 B. significa la complessità minima del problema
@@ -259,7 +233,6 @@ C. significa dare il tetto alla complessità del problema risolto dall'algoritmo
 D. significa dare almeno un tetto alla complessità del problema risolto dall'algoritmo
 Risposta corretta: D
 Argomento: Introduzione al concetto di complessità
-
 
 10. Se l'algoritmo trovato non è il migliore per risolvere quel problema:
 A. avremo risposto alla domanda qual è la complessità del mio problema
@@ -269,8 +242,7 @@ D. l'algoritmo non è corretto
 Risposta corretta: B
 Argomento: Introduzione al concetto di complessità
 
-
- Capitolo ID 4: Divide et Impera
+Capitolo ID 4: Divide et Impera
 1. Il dato di ingresso soddisfa una certa proprietà:
 A. È un tipo di problema decisionale
 B. È un tipo di problema di ricerca
@@ -278,7 +250,6 @@ C. È un tipo di problema di ottimizzazione
 D. È un tipo di problema di struttura
 Risposta corretta: A
 Argomento: Classificazione dei problemi
-
 
 2. Un problema di ottimizzazione:
 A. cerca una soluzione a costo massimo
@@ -288,7 +259,6 @@ D. cerca una soluzione formale
 Risposta corretta: B
 Argomento: Classificazione dei problemi
 
-
 3. Stabilire se un grafo è connesso:
 A. È un problema decisionale
 B. È un tipo di problema di ricerca
@@ -296,7 +266,6 @@ C. È un tipo di problema di ottimizzazione
 D. È un tipo di problema di struttura
 Risposta corretta: A
 Argomento: Classificazione dei problemi
-
 
 4. Nella programmazione dinamica:
 A. un problema viene suddiviso in sotto-problemi indipendenti tra loro
@@ -306,7 +275,6 @@ D. si fa sempre la scelta localmente ottima
 Risposta corretta: C
 Argomento: Tecnica di progetto
 
-
 5. Prova a fare qualcosa, se non funziona disfala e prova a farne un'altra:
 A. È tipico della programmazione dinamica
 B. È tipico dell'algoritmo probabilistico
@@ -314,7 +282,6 @@ C. È un problema di ottimizzazione
 D. È tipico del Backtrack
 Risposta corretta: D
 Argomento: Tecnica di progetto
-
 
 6. L'approccio bottom-up è tipico di:
 A. programmazione dinamica
@@ -324,7 +291,6 @@ D. sistemi complessi
 Risposta corretta: A
 Argomento: Tecnica di progetto
 
-
 7. La scelta migliore nell'immediata è tipica di:
 A. programmazione dinamica
 B. divide et impera
@@ -332,7 +298,6 @@ C. tecnica greedy
 D. sistemi complessi
 Risposta corretta: C
 Argomento: Tecnica di progetto
-
 
 8. Combina:
 A. È una fase del divide et impera
@@ -342,7 +307,6 @@ D. È una fase della tecnica greedy
 Risposta corretta: A
 Argomento: Divide et Impera
 
-
 9. La ricorsione:
 A. È tipica delle tecniche probabilistiche
 B. È tipica delle tecniche golose
@@ -350,7 +314,6 @@ C. È tipica del divide et impera
 D. È tipica dei sistemi di ottimizzazione
 Risposta corretta: C
 Argomento: Divide et Impera
-
 
 10. Nella torre di Hanoi con 4 dischi il numero di mosse necessarie è:
 A. 10
@@ -360,7 +323,7 @@ D. 15
 Risposta corretta: D
 Argomento: Torre di Hanoi
 
- Capitolo ID 5: Notazione Asintotica
+Capitolo ID 5: Notazione Asintotica
 1. Una delle seguenti non è una operazione elementare:
 A. aritmetica
 B. logica
@@ -368,7 +331,6 @@ C. confronto
 D. iterazione
 Risposta corretta: D
 Argomento: Notazione Asintotica
-
 
 2. La complessità asintotica:
 A. stima quanto aumenta il tempo di calcolo al crescere della dimensione n dell'input
@@ -378,7 +340,6 @@ D. stima quanto aumenta il tempo di calcolo al crescere del numero di iterazioni
 Risposta corretta: A
 Argomento: Notazione Asintotica
 
-
 3. La notazione Theta rappresenta:
 A. un limite superiore
 B. un limite inferiore
@@ -386,7 +347,6 @@ C. un limite stretto
 D. nessun limite
 Risposta corretta: C
 Argomento: Notazione Asintotica
-
 
 4. La notazione asintotica O:
 A. vale per ogni n
@@ -396,7 +356,6 @@ D. vale solo per un valore di n con 0
 Risposta corretta: B
 Argomento: Notazione Asintotica O
 
-
 5. Una funzione polinomiale è:
 A. O(n^2)
 B. O(n)
@@ -404,7 +363,6 @@ C. O(n-1)
 D. O(x)
 Risposta corretta: A
 Argomento: Notazione Asintotica O
-
 
 6. Una funzione polinomiale è:
 A. Ω(n^2)
@@ -414,7 +372,6 @@ D. Ω(x)
 Risposta corretta: A
 Argomento: Notazione Asintotica Omega
 
-
 7. La notazione asintotica Omega:
 A. vale per ogni n
 B. vale per ogni n maggiore o uguale ad un certo valore n con 0
@@ -422,7 +379,6 @@ C. vale per ogni n minore o uguale ad un certo valore n con 0
 D. vale solo per un valore di n con 0
 Risposta corretta: B
 Argomento: Notazione Asintotica Omega
-
 
 8. Nel logaritmo, O(n) ed Ω(n):
 A. coincodono
@@ -432,7 +388,6 @@ D. coincidono per n=0
 Risposta corretta: B
 Argomento: Analisi O ed Omega
 
-
 9. Se una funzione è sia O(g(n)) che Ω(g(n):
 A. allora è o(n)
 B. allora è θ(g(n))
@@ -440,7 +395,6 @@ C. allora è un logaritmo
 D. allora è una retta
 Risposta corretta: B
 Argomento: Notazione Asintotica Theta
-
 
 10. La notazione asintotica Theta ammette che esistano 2 costanti c1 e c2:
 A. per ogni n
@@ -450,7 +404,7 @@ D. per un valore di n con 0
 Risposta corretta: B
 Argomento: Notazione Asintotica Theta
 
- Capitolo ID 7: Complessità
+Capitolo ID 6: Complessità
 
 1. La notazione asintotica O:
 A. rappresenta un limite inferiore asintotico
@@ -460,7 +414,6 @@ D. non rappresenta un limite
 Risposta corretta: A
 Argomento: Notazione asintotica e proprietà
 
-
 2. Il limite superiore di una espressione polinomiale è:
 A. di ordine n^k
 B. di ordine n^(k-1)
@@ -468,7 +421,6 @@ C. di ordine n^(k-2)
 D. di ordine n
 Risposta corretta: A
 Argomento: Notazione asintotica e proprietà
-
 
 3. Il limite inferiore di una espressione polinomiale è:
 A. di ordine n^2
@@ -478,7 +430,6 @@ D. di ordine n
 Risposta corretta: C
 Argomento: Notazione asintotica e proprietà
 
-
 4. Se il limite per n tendente all'infinito di f(n)/g(n) è 0:
 A. f(n) è O grande di g(n)
 B. f(n) è Omega grande di g(n)
@@ -486,7 +437,6 @@ C. f(n) è Theta grande di g(n)
 D. f(n) è costante
 Risposta corretta: A
 Argomento: Limiti asintotici e notazioni piccole
-
 
 5. Se il limite per n tendente all'infinito di f(n)/g(n) è infinito:
 A. f(n) è O grande di g(n)
@@ -496,7 +446,6 @@ D. f(n) è costante
 Risposta corretta: B
 Argomento: Limiti asintotici e notazioni piccole
 
-
 6. Se il limite per n tendente all'infinito di f(n)/g(n) è un numero finito:
 A. f(n) è O grande di g(n)
 B. f(n) è Omega grande di g(n)
@@ -504,7 +453,6 @@ C. f(n) è Theta grande di g(n)
 D. f(n) è costante
 Risposta corretta: C
 Argomento: Limiti asintotici e notazioni piccole
-
 
 7. La seguente non è una proprietà dei limiti asintotici:
 A. Transitiva
@@ -514,7 +462,6 @@ D. Sottrattiva
 Risposta corretta: D
 Argomento: Limiti asintotici e notazioni piccole
 
-
 8. La 'o' piccola implica la 'O' grande:
 A. mai
 B. sempre
@@ -522,8 +469,6 @@ C. solo se vale theta
 D. solo se implica omega
 Risposta corretta: B
 Argomento: La scala della complessità
-
-
 9. O(n·log n) è detta:
 A. complessità logaritmica
 B. complessità pseudolineare
@@ -531,8 +476,6 @@ C. complessità lineare
 D. complessità polinomiale
 Risposta corretta: B
 Argomento: La scala della complessità
-
-
 10. Quale tra le seguenti ha una complessità maggiore al crescere di n:
 A. costante
 B. esponenziale
@@ -540,8 +483,7 @@ C. lineare
 D. logaritmica
 Risposta corretta: B
 Argomento: La scala della complessità
-
- Capitolo ID 9: Flowgorithm - Funzionalità di base
+Capitolo ID 7: Flowgorithm - Funzionalità di base
 1. Nei diagrammi di flusso, il simbolo del rombo è usato per:
 A. selezione
 B. input
@@ -549,8 +491,6 @@ C. output
 D. assegnazione
 Risposta corretta: A
 Argomento: Selezione
-
-
 2. Nella selezione sono possibili:
 A. vero e falso
 B. vero, falso o altro
@@ -558,8 +498,6 @@ C. 0, 1, 2
 D. solo opzioni vere
 Risposta corretta: A
 Argomento: Selezione
-
-
 3. Nell'iterazione sono possibili esclusivamente:
 A. mentre
 B. fai
@@ -595,7 +533,7 @@ D. di un rombo
 Risposta corretta: C
 Argomento: Iterazione
 
- Capitolo ID 11: Flowgorithm - Esercizi
+Capitolo ID 8: Flowgorithm - Esercizi
 1. Il seguente non è un numero sconnesso:
 A. 1234
 B. 5678
@@ -649,7 +587,7 @@ D. 57161
 Risposta corretta: C
 Argomento: Numero Sconnesso
 
- Capitolo ID 12: Replit - online IDE
+Capitolo ID 9: Replit - online IDE
 1. Replit è un:
 A. IaaS
 B. PaaS
@@ -740,7 +678,7 @@ D. il next
 Risposta corretta: C
 Argomento: CIE Pseudocode template
 
- Capitolo ID 14: Complessità degli algoritmi non ricorsivi
+Capitolo ID 10: Complessità degli algoritmi non ricorsivi
 1. Un caso medio è:
 A. determinato dalla somma dei tempi d'esecuzione di tutte le istanze dei dati di ingresso, con ogni
 addendo moltiplicato per la probabilità di occorrenza della relativa istanza dei dati di ingresso
@@ -832,7 +770,7 @@ D. comporta vantaggi in termini di spazio
 Risposta corretta: B
 Argomento: Analisi di complessità - Esempi
 
- Capitolo ID 15: Complessità degli algoritmi ricorsivi
+Capitolo ID 11: Complessità degli algoritmi ricorsivi
 1. Una equazione di ricorrenza esprime il tempo di esecuzione totale di un problema di
 dimensione n:
 A. in funzione del tempo di esecuzione per input logaritmici
@@ -925,7 +863,7 @@ D. 4
 Risposta corretta: C
 Argomento: Metodi di risoluzione delle ricorrenze
 
- Capitolo ID 17: Algoritmi per Array
+Capitolo ID 12: Algoritmi per Array
 1. Le strutture nell'ambito della programmazione possono essere definite ad un livello
 astratto:
 A. come liste
@@ -1016,7 +954,7 @@ D. sono a volte migliori ed a volte peggiori
 Risposta corretta: C
 Argomento: C++ vs Python list
 
- Capitolo ID 18: Gestione della memoria in C++
+Capitolo ID 13: Gestione della memoria in C++
 1. In C/C++ vi sono a disposizione del programmatore, i seguenti pools di memoria:
 A. dynamic, static
 B. static, stack, heap
@@ -1107,7 +1045,7 @@ D. allocazione di memoria non solo per una variabile puntatore, ma anche per l'a
 Risposta corretta: D
 Argomento: Array vs Puntatori
 
- Capitolo ID 19: Il problema della ricerca nell'array
+Capitolo ID 14: Il problema della ricerca nell'array
 1. Un array è statico:
 A. sempre
 B. può esserlo
@@ -1197,7 +1135,7 @@ D. sono obbligatori
 Risposta corretta: B
 Argomento: Problema della ricerca - analisi in Python
 
- Capitolo ID 21: Il problema dell'ordinamento
+Capitolo ID 15: Il problema dell'ordinamento
 1. L'ordinamento di una sequenza di informazioni consiste nel disporre:
 A. le stesse informazioni in modo in modalità randomica
 B. le stess informazioni in ordine alfabetico
@@ -1289,7 +1227,7 @@ D. È quadratico
 Risposta corretta: D
 Argomento: Algoritmi di ordinamento
 
- Capitolo ID 22: Selection Sort
+Capitolo ID 16: Selection Sort
 1. In selection Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1379,7 +1317,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
- Capitolo ID 23: Insertion Sort
+Capitolo ID 17: Insertion Sort
 1. In Insertion Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1469,7 +1407,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
- Capitolo ID 24: Bubble Sort
+Capitolo ID 18: Bubble Sort
 1. In Bubble Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1559,7 +1497,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
- Capitolo ID 25: Merge Sort
+Capitolo ID 19: Merge Sort
 
 1. In Merge Sort la complessità nel caso migliore è:
 A. lineare
@@ -1650,7 +1588,7 @@ D. ha una complessità logaritmica
 Risposta corretta: B
 Argomento: Implementazione
 
- Capitolo ID 26: Quick Sort
+Capitolo ID 20: Quick Sort
 1. In Quick Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1740,7 +1678,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
- Capitolo ID 27: Heap Sort
+Capitolo ID 21: Heap Sort
 
 1. In un albero completo:
 
@@ -1834,7 +1772,7 @@ D. il più piccolo elemento è nella radice
 Risposta corretta: D
 Argomento: Heap Sort
 
- Capitolo ID 28: Heap Sort - Implementazione
+Capitolo ID 22: Heap Sort - Implementazione
 1. In Heap Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1924,7 +1862,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
- Capitolo ID 31: Strutture Dati
+Capitolo ID 23: Strutture Dati
 1. Una struttura dati:
 A. È sinonimo di insieme
 B. fornisce una rappresentazione organizzata e logica dei dati all'interno di un insieme
@@ -2015,7 +1953,7 @@ D. si sta creando un riferimento all'oggetto in memoria
 Risposta corretta: D
 Argomento: Puntatore
 
- Capitolo ID 32: Liste
+Capitolo ID 24: Liste
 1. Rispetto alla tassonomia classica, una lista risulta:
 A. dinamica, sparsa, ordinata
 B. statica, sparsa, ordinata
@@ -2106,7 +2044,7 @@ D. si rischia un memory leak
 Risposta corretta: D
 Argomento: Gestione della memoria dinamica
 
- Capitolo ID 33: Liste - Implementazione
+Capitolo ID 25: Liste - Implementazione
 1. In una lista realizzata con raw pointers, ciascun elemento della lista è una struttura di due
 campi, di cui uno rappresenta il valore dell'elemento:
 A. È di tipo numerico
@@ -2202,7 +2140,7 @@ D. costante
 Risposta corretta: A
 Argomento: Analisi della complessità
 
- Capitolo ID 36: Stack
+Capitolo ID 26: Stack
 1. La pila è un sistema:
 A. LILO
 B. LIFO
@@ -2291,7 +2229,7 @@ C. O(n^2)
 D. O(n^3)
 Risposta corretta: B
 Argomento: Complessità
- Capitolo ID 38: Coda
+Capitolo ID 27: Coda
 1. La coda è un sistema:
 A. LILO
 B. LIFO
@@ -2382,8 +2320,8 @@ D. O(n^3)
 Risposta corretta: B
 Argomento: Complessità
 
-Capitolo ID 3865: AUTOVALUTAZIONE
-115099. Selection Sort è in place:
+Capitolo ID 28: AUTOVALUTAZIONE
+1. Selection Sort è in place:
 A. si
 B. no
 C. non è possibile stabilirlo con certezza
@@ -2392,7 +2330,7 @@ Risposta corretta: A
 Argomento: 7048
 
 
-115700. La notazione asintotica O:
+2. La notazione asintotica O:
 A. rappresenta un limite inferiore asintotico
 B. rappresenta un limite superiore asintotico
 C. rappresenta un limite stretto asintotico
@@ -2401,7 +2339,7 @@ Risposta corretta: B
 Argomento: 7068
 
 
-116120. Il costo di un algoritmo di ricerca binaria è:
+3. Il costo di un algoritmo di ricerca binaria è:
 A. esponenziale
 B. lineare
 C. logaritmico
@@ -2410,7 +2348,7 @@ Risposta corretta: C
 Argomento: 7082
 
 
-116150. Nelle strutture dati dinamiche i puntatori:
+4. Nelle strutture dati dinamiche i puntatori:
 A. non vengono utilizzati
 B. non possono essere utilizzati
 C. sono obsoleti
@@ -2419,7 +2357,7 @@ Risposta corretta: D
 Argomento: 7083
 
 
-116210. Merge Sort non è in place perché:
+5. Merge Sort non è in place perché:
 A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
 B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
 C. dipende dalla grandezza dell'array
