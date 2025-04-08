@@ -1,0 +1,2429 @@
+                              Capitolo ID 1: Introduzione agli algoritmi
+
+1. Cos'è un problema:
+A. un evento senza soluzione
+B. una risposta ad una domanda
+C. qualcosa che siamo chiamati a risolvere
+D. una soluzione
+Risposta corretta: C
+Argomento: Problema e soluzione
+
+
+2. Cos'è una istanza:
+A. un particolare input ad un problema
+B. un tipo di problema
+C. una soluzione al problema
+D. un valore specifico
+Risposta corretta: A
+Argomento: Problema e soluzione
+
+
+3. Cos'è un algoritmo:
+A. un insieme di soluzioni
+B. una risposta singola ad un problema
+C. un sinonimo di problema
+D. una sequenza di istruzioni che istruiscono sull'esecuzione di un determinato compito
+Risposta corretta: D
+Argomento: Cos'è un algoritmo
+
+
+4. Chi è l'esecutore dell'algoritmo:
+A. chi realizza l'algoritmo
+B. l'utente generico che esegue l'algoritmo
+C. chi esegue l'algoritmo e conosce il linguaggio con il quale è stato scritto
+D. chi implementa l'algoritmo
+Risposta corretta: C
+Argomento: Cos'è un algoritmo
+
+
+5. La seguente frase è "ambigua":
+A. il valore esatto è 5
+B. il numero è grande
+C. la temperatura è di 30°
+D. 20g di sale
+Risposta corretta: B
+Argomento: Cos'è un algoritmo
+
+
+6. La pragmatica indica:
+A. lo studio del miglior modo per esprimere un concetto
+B. una serie di regole
+C. la sintassi
+D. la semantica
+Risposta corretta: A
+Argomento: Cos'è un algoritmo
+
+
+7. Il determinismo indica:
+A. uno stato mentale
+B. un modo di risolvere un problema
+C. un tipo di algoritmo
+D. stesso risultato indipendentemente dall'esecutore
+Risposta corretta: D
+Argomento: Proprietà di un algoritmo
+
+
+8. Nella selezione:
+A. esistono due condizioni da valutare e due possibili gruppi di istruzioni da eseguire
+B. esiste una condizione da valutare e due possibili gruppi di istruzioni da eseguire
+C. esiste una condizione da valutare ed una possibile istruzione da eseguire
+D. si esegue il valore TRUE
+Risposta corretta: B
+Argomento: Proprietà di un algoritmo
+
+
+9. L'assegnazione:
+A. modifica il valore di una variabile
+B. lascia inalterato il valore di una variabile
+C. È un tipo di output
+D. È un valore intero
+Risposta corretta: A
+Argomento: Proprietà di un algoritmo
+
+
+10. Qualunque algoritmo può essere implementato usando le sole seguenti strutture:
+A. assegnazione, input ed output
+B. assegnazione, selezione ed iterazione
+C. sequenza, ciclo e selezione
+D. selezione, sequenza ed input
+Risposta corretta: C
+Argomento: Teorema di Bohm-Jacopini
+
+                             Capitolo ID 2: Pseudocodice e flowchart
+1. Nella tesi di Church-Turing:
+A. tutti i linguaggi sufficientemente espressivi sono ugualmente espressivi
+B. tutti i linguaggi sono identici
+C. tutti i linguaggi sono diversamente espressivi
+D. i linguaggi non espressivi sono privilegiati
+Risposta corretta: A
+Argomento: Flowchart
+
+
+2. La sequenza delle operazioni è rappresentata da:
+A. rombi
+B. rettangoli
+C. linee
+D. frecce
+Risposta corretta: D
+Argomento: Flowchart
+
+
+3. Un comando di output:
+A. valuta un'espressione
+B. valuta un'espressione e poi visualizza il risultato sullo schermo
+C. visualizza il risultato sullo schermo
+D. legge un valore in ingresso
+Risposta corretta: B
+Argomento: Flowchart
+
+
+4. Un comando di input:
+A. genera un input
+B. legge un input
+C. legge un input ed immagazzina tale valore in una variabile
+D. legge da una variabile
+Risposta corretta: C
+Argomento: Flowchart
+
+
+5. Nella selezione, in funzione del valore della condizione, si sceglie un blocco oppure l'altro:
+A. sempre
+B. mai
+C. a seconda dell'input
+D. a seconda del valore della variabile condizione
+Risposta corretta: A
+Argomento: Flowchart
+
+
+6. Nell'assegnazione:
+A. si modifica il valore di una variabile
+B. si assegna un valore all'input
+C. si assegna un valore da scrivere in output
+D. si legge da tastiera
+Risposta corretta: A
+Argomento: Flowchart
+
+
+7. While {condizione} do {corpo} end while:
+A. indica una iterazione
+B. indica una selezione
+C. indica un'assegnazione
+D. indica un input
+Risposta corretta: A
+Argomento: Pseudocodice
+
+
+8. Fun(arg1, arg2 ...):
+A. indica una iterazione
+B. indica una selezione
+C. indica una funzione
+D. indica un'assegnazione
+Risposta corretta: C
+Argomento: Pseudocodice
+
+
+9. Il seguente pseudocodice (a, b) < - (b,a):
+A. indica una somma
+B. indica una selezione
+C. indica uno scambio del valore delle variabili
+D. indica una iterazione
+Risposta corretta: C
+Argomento: Pseudocodice
+
+
+10. Il seguente pseudocodice arr[{espr}]:
+A. indica un array
+B. indica un valore specifico all'interno dell'array
+C. indica la posizione iniziale dell'array
+D. indica la lunghezza dell'array
+Risposta corretta: B
+Argomento: Pseudocodice
+
+                             Capitolo ID 3: Un problema, due algoritmi
+1. Nella ricerca sequenziale di un elemento in un array di n elementi:
+A. la complessità è proporzionale ad n
+B. la complessità non è proporzionale ad n
+C. la complessità è pari ad n*n
+D. la complessità è logaritmica
+Risposta corretta: A
+Argomento: Presentazione del problema e soluzione naive
+
+
+2. Nella ricerca sequenziale di un elemento in un array di n elementi:
+A. l'array deve essere ordinato
+B. l'array può essere ordinato
+C. l'array non deve essere ordinato
+D. l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale
+Risposta corretta: D
+Argomento: Presentazione del problema e soluzione naive
+
+
+3. Nella ricerca binaria:
+A. l'array deve essere ordinato
+B. l'array può essere ordinato
+C. l'array non deve essere ordinato
+D. l'ordinamento non ha un impatto sulla complessità della ricerca sequenziale
+Risposta corretta: A
+Argomento: Soluzione efficiente
+
+
+4. Nella ricerca binaria:
+A. la complessità è proporzionale ad n
+B. la complessità non è proporzionale ad n
+C. la complessità è pari ad n*n
+D. la complessità è logaritmica
+Risposta corretta: D
+Argomento: Soluzione efficiente
+
+
+5. Nella ricerca binaria:
+A. l'algoritmo è ricorsivo
+B. l'algoritmo non è ricorsivo
+C. l'algoritmo non deve essere ricorsivo
+D. l'algoritmo ricorsivo è fortemente sconsigliato
+Risposta corretta: A
+Argomento: Soluzione efficiente
+
+
+6. Nella ricerca binaria, la procedura ricorsiva:
+A. non lavora su sottoinsiemi dell'array
+B. lavora su sottoinsiemi dell'array
+C. si occupa di eseguire l'ordinamento dell'array in esame
+D. costruisce un nuovo array
+Risposta corretta: B
+Argomento: Soluzione efficiente
+
+
+7. Nell'analisi di un algorimo è importante considerare correttezza, completezza e:
+A. determinismo
+B. complessità
+C. fattibilità
+D. risolvibilità
+Risposta corretta: B
+Argomento: Introduzione al concetto di complessità
+
+
+8. Un algoritmo è corretto quando:
+A. restituisce almeno una risposta corretta
+B. può restituire una risposta corretta
+C. restituisce sempre una risposta corretta
+D. restituisce una risposta corretta se gli input sono ben strutturati
+Risposta corretta: C
+Argomento: Introduzione al concetto di complessità
+
+
+9. Fornire la complessità dell'algoritmo corretto:
+A. significa fornire il tempo di calcolo dell'algoritmo
+B. significa la complessità minima del problema
+C. significa dare il tetto alla complessità del problema risolto dall'algoritmo
+D. significa dare almeno un tetto alla complessità del problema risolto dall'algoritmo
+Risposta corretta: D
+Argomento: Introduzione al concetto di complessità
+
+
+10. Se l'algoritmo trovato non è il migliore per risolvere quel problema:
+A. avremo risposto alla domanda qual è la complessità del mio problema
+B. non avremo risposto alla domanda qual è la complessità del mio problema
+C. il problema non ammette soluzione ottima
+D. l'algoritmo non è corretto
+Risposta corretta: B
+Argomento: Introduzione al concetto di complessità
+
+
+                                   Capitolo ID 4: Divide et Impera
+1. Il dato di ingresso soddisfa una certa proprietà:
+A. È un tipo di problema decisionale
+B. È un tipo di problema di ricerca
+C. È un tipo di problema di ottimizzazione
+D. È un tipo di problema di struttura
+Risposta corretta: A
+Argomento: Classificazione dei problemi
+
+
+2. Un problema di ottimizzazione:
+A. cerca una soluzione a costo massimo
+B. cerca una soluzione a costo minimo
+C. cerca una soluzione ammissibile
+D. cerca una soluzione formale
+Risposta corretta: B
+Argomento: Classificazione dei problemi
+
+
+3. Stabilire se un grafo è connesso:
+A. È un problema decisionale
+B. È un tipo di problema di ricerca
+C. È un tipo di problema di ottimizzazione
+D. È un tipo di problema di struttura
+Risposta corretta: A
+Argomento: Classificazione dei problemi
+
+
+4. Nella programmazione dinamica:
+A. un problema viene suddiviso in sotto-problemi indipendenti tra loro
+B. si usa una cache
+C. la soluzione viene costruita a partire da un insieme di sotto-problemi potenzialmente ripetuti
+D. si fa sempre la scelta localmente ottima
+Risposta corretta: C
+Argomento: Tecnica di progetto
+
+
+5. Prova a fare qualcosa, se non funziona disfala e prova a farne un'altra:
+A. È tipico della programmazione dinamica
+B. È tipico dell'algoritmo probabilistico
+C. È un problema di ottimizzazione
+D. È tipico del Backtrack
+Risposta corretta: D
+Argomento: Tecnica di progetto
+
+
+6. L'approccio bottom-up è tipico di:
+A. programmazione dinamica
+B. divide et impera
+C. tecnica greedy
+D. sistemi complessi
+Risposta corretta: A
+Argomento: Tecnica di progetto
+
+
+7. La scelta migliore nell'immediata è tipica di:
+A. programmazione dinamica
+B. divide et impera
+C. tecnica greedy
+D. sistemi complessi
+Risposta corretta: C
+Argomento: Tecnica di progetto
+
+
+8. Combina:
+A. È una fase del divide et impera
+B. non è una fase del divide et impera
+C. si usa nel divide et impera al posto del divide
+D. È una fase della tecnica greedy
+Risposta corretta: A
+Argomento: Divide et Impera
+
+
+9. La ricorsione:
+A. È tipica delle tecniche probabilistiche
+B. È tipica delle tecniche golose
+C. È tipica del divide et impera
+D. È tipica dei sistemi di ottimizzazione
+Risposta corretta: C
+Argomento: Divide et Impera
+
+
+10. Nella torre di Hanoi con 4 dischi il numero di mosse necessarie è:
+A. 10
+B. 11
+C. 13
+D. 15
+Risposta corretta: D
+Argomento: Torre di Hanoi
+
+                               Capitolo ID 5: Notazione Asintotica
+1. Una delle seguenti non è una operazione elementare:
+A. aritmetica
+B. logica
+C. confronto
+D. iterazione
+Risposta corretta: D
+Argomento: Notazione Asintotica
+
+
+2. La complessità asintotica:
+A. stima quanto aumenta il tempo di calcolo al crescere della dimensione n dell'input
+B. stima quanto aumenta il tempo di calcolo al crescere della dimensione n dell'output
+C. stima quanto aumenta il tempo di calcolo al crescere del tempo di esecuzione
+D. stima quanto aumenta il tempo di calcolo al crescere del numero di iterazioni
+Risposta corretta: A
+Argomento: Notazione Asintotica
+
+
+3. La notazione Theta rappresenta:
+A. un limite superiore
+B. un limite inferiore
+C. un limite stretto
+D. nessun limite
+Risposta corretta: C
+Argomento: Notazione Asintotica
+
+
+4. La notazione asintotica O:
+A. vale per ogni n
+B. vale per ogni n maggiore o uguale ad un certo valore n con 0
+C. vale per ogni n minore o uguale ad un certo valore n con 0
+D. vale solo per un valore di n con 0
+Risposta corretta: B
+Argomento: Notazione Asintotica O
+
+
+5. Una funzione polinomiale è:
+A. O(n^2)
+B. O(n)
+C. O(n-1)
+D. O(x)
+Risposta corretta: A
+Argomento: Notazione Asintotica O
+
+
+6. Una funzione polinomiale è:
+A. Ω(n^2)
+B. Ω(n)
+C. Ω(n-1)
+D. Ω(x)
+Risposta corretta: A
+Argomento: Notazione Asintotica Omega
+
+
+7. La notazione asintotica Omega:
+A. vale per ogni n
+B. vale per ogni n maggiore o uguale ad un certo valore n con 0
+C. vale per ogni n minore o uguale ad un certo valore n con 0
+D. vale solo per un valore di n con 0
+Risposta corretta: B
+Argomento: Notazione Asintotica Omega
+
+
+8. Nel logaritmo, O(n) ed Ω(n):
+A. coincodono
+B. non coincidono
+C. coincidono per un certo valore di n con 0
+D. coincidono per n=0
+Risposta corretta: B
+Argomento: Analisi O ed Omega
+
+
+9. Se una funzione è sia O(g(n)) che Ω(g(n):
+A. allora è o(n)
+B. allora è θ(g(n))
+C. allora è un logaritmo
+D. allora è una retta
+Risposta corretta: B
+Argomento: Notazione Asintotica Theta
+
+
+10. La notazione asintotica Theta ammette che esistano 2 costanti c1 e c2:
+A. per ogni n
+B. per ogni n maggiore o uguale ad un certo valore n con 0
+C. per ogni n minore o uguale ad un certo valore n con 0
+D. per un valore di n con 0
+Risposta corretta: B
+Argomento: Notazione Asintotica Theta
+
+                                      Capitolo ID 7: Complessità
+
+1. La notazione asintotica O:
+A. rappresenta un limite inferiore asintotico
+B. rappresenta un limite superiore asintotico
+C. rappresenta un limite stretto asintotico
+D. non rappresenta un limite
+Risposta corretta: A
+Argomento: Notazione asintotica e proprietà
+
+
+2. Il limite superiore di una espressione polinomiale è:
+A. di ordine n^k
+B. di ordine n^(k-1)
+C. di ordine n^(k-2)
+D. di ordine n
+Risposta corretta: A
+Argomento: Notazione asintotica e proprietà
+
+
+3. Il limite inferiore di una espressione polinomiale è:
+A. di ordine n^2
+B. di ordine n^(k-1)
+C. di ordine n^k
+D. di ordine n
+Risposta corretta: C
+Argomento: Notazione asintotica e proprietà
+
+
+4. Se il limite per n tendente all'infinito di f(n)/g(n) è 0:
+A. f(n) è O grande di g(n)
+B. f(n) è Omega grande di g(n)
+C. f(n) è Theta grande di g(n)
+D. f(n) è costante
+Risposta corretta: A
+Argomento: Limiti asintotici e notazioni piccole
+
+
+5. Se il limite per n tendente all'infinito di f(n)/g(n) è infinito:
+A. f(n) è O grande di g(n)
+B. f(n) è Omega grande di g(n)
+C. f(n) è Theta grande di g(n)
+D. f(n) è costante
+Risposta corretta: B
+Argomento: Limiti asintotici e notazioni piccole
+
+
+6. Se il limite per n tendente all'infinito di f(n)/g(n) è un numero finito:
+A. f(n) è O grande di g(n)
+B. f(n) è Omega grande di g(n)
+C. f(n) è Theta grande di g(n)
+D. f(n) è costante
+Risposta corretta: C
+Argomento: Limiti asintotici e notazioni piccole
+
+
+7. La seguente non è una proprietà dei limiti asintotici:
+A. Transitiva
+B. Riflessiva
+C. Simmetrica
+D. Sottrattiva
+Risposta corretta: D
+Argomento: Limiti asintotici e notazioni piccole
+
+
+8. La 'o' piccola implica la 'O' grande:
+A. mai
+B. sempre
+C. solo se vale theta
+D. solo se implica omega
+Risposta corretta: B
+Argomento: La scala della complessità
+
+
+9. O(n·log n) è detta:
+A. complessità logaritmica
+B. complessità pseudolineare
+C. complessità lineare
+D. complessità polinomiale
+Risposta corretta: B
+Argomento: La scala della complessità
+
+
+10. Quale tra le seguenti ha una complessità maggiore al crescere di n:
+A. costante
+B. esponenziale
+C. lineare
+D. logaritmica
+Risposta corretta: B
+Argomento: La scala della complessità
+
+                         Capitolo ID 9: Flowgorithm - Funzionalità di base
+1. Nei diagrammi di flusso, il simbolo del rombo è usato per:
+A. selezione
+B. input
+C. output
+D. assegnazione
+Risposta corretta: A
+Argomento: Selezione
+
+
+2. Nella selezione sono possibili:
+A. vero e falso
+B. vero, falso o altro
+C. 0, 1, 2
+D. solo opzioni vere
+Risposta corretta: A
+Argomento: Selezione
+
+
+3. Nell'iterazione sono possibili esclusivamente:
+A. mentre
+B. fai
+C. mentre, fai, per
+D. mentre, per, ancora
+Risposta corretta: C
+Argomento: Iterazione
+
+
+4. Nella ripetizione "mentre" è solo possibile specificare:
+A. la condizione
+B. i parametri in ingresso
+C. l'output
+D. il contatore
+Risposta corretta: A
+Argomento: Iterazione
+
+
+5. Nella ripetizione "per" è solo possibile specificare come "direzione":
+A. somma e sottrazione
+B. modulo e divisore
+C. solo l'incremento
+D. incremento e decremento
+Risposta corretta: D
+Argomento: Iterazione
+
+
+6. In Flowgorithm la ripetizione è identificata da una forma:
+A. di un parallelepipedo
+B. di un rettangolo
+C. di un esagono
+D. di un rombo
+Risposta corretta: C
+Argomento: Iterazione
+
+                             Capitolo ID 11: Flowgorithm - Esercizi
+1. Il seguente non è un numero sconnesso:
+A. 1234
+B. 5678
+C. 6767
+D. 5757
+Risposta corretta: D
+Argomento: Numero Sconnesso
+
+
+2. Un numero è definito come sconnesso se per ogni sua cifra:
+A. la cifra adiacente a destra dista al massimo 1
+B. la cifra adiacente a sinistra dista al massimo 1
+C. la cifra adiacente a destra e a sinistra dista al massimo 1
+D. la somma delle cifre è un numero che termina con 1
+Risposta corretta: C
+Argomento: Numero Sconnesso
+
+
+3. Il seguente è un numero sconnesso:
+A. 1357
+B. 2468
+C. 13
+D. 34543
+Risposta corretta: D
+Argomento: Numero Sconnesso
+
+
+4. Il seguente è un numero sconnesso:
+A. 66666
+B. 32198633
+C. 345434543
+D. 2226
+Risposta corretta: C
+Argomento: Numero Sconnesso
+
+
+5. Il seguente è un numero sconnesso:
+A. 1000
+B. 10
+C. 100
+D. 121
+Risposta corretta: D
+Argomento: Numero Sconnesso
+
+
+6. Il seguente è un numero sconnesso:
+A. 200
+B. 500
+C. 101
+D. 57161
+Risposta corretta: C
+Argomento: Numero Sconnesso
+
+                                 Capitolo ID 12: Replit - online IDE
+1. Replit è un:
+A. IaaS
+B. PaaS
+C. CaaS
+D. SaaS
+Risposta corretta: D
+Argomento: Introduzione a Replit
+
+
+2. Gli ambienti di Replit sono chiamati:
+A. workspace
+B. workplace
+C. workaround
+D. placeholder
+Risposta corretta: A
+Argomento: Introduzione a Replit
+
+
+3. Quale dei seguenti non è un token in Pseudocode:
+A. while
+B. for
+C. declare
+D. initialize
+Risposta corretta: D
+Argomento: CIE Pseudocode template
+
+
+4. Quale dei seguenti non è un token in Pseudocode:
+A. input
+B. output
+C. sum
+D. integer
+Risposta corretta: C
+Argomento: CIE Pseudocode template
+
+
+5. Quale dei seguenti non è un token in Pseudocode:
+A. boolean
+B. integer
+C. boolean
+D. customtype
+Risposta corretta: D
+Argomento: CIE Pseudocode template
+
+
+6. In Pseudocode una funzione:
+A. non è ammess
+
+B. non deve restituire un valore
+C. deve restituire un valore
+D. È ammessa ma non può contenere parametri
+Risposta corretta: C
+Argomento: CIE Pseudocode template
+
+
+7. In Pseudocode un array:
+A. non può ammettere integer
+B. può ammettere integer
+C. non deve essere più lungo di 10 elementi
+D. ammette solo integer
+Risposta corretta: B
+Argomento: CIE Pseudocode template
+
+
+8. In Pseudocode le iterazioni ammesse sono:
+A. for e while
+B. solo il for
+C. solo il while
+D. non sono ammesse iterazioni
+Risposta corretta: A
+Argomento: CIE Pseudocode template
+
+
+9. In Pseudocode il for necessità:
+A. la print
+B. il next
+C. il void
+D. il declare
+Risposta corretta: B
+Argomento: CIE Pseudocode template
+
+
+10. In Pseudocode il while necessità:
+A. un output
+B. un input
+C. l'endwhile
+D. il next
+Risposta corretta: C
+Argomento: CIE Pseudocode template
+
+                Capitolo ID 14: Complessità degli algoritmi non ricorsivi
+1. Un caso medio è:
+A. determinato dalla somma dei tempi d'esecuzione di tutte le istanze dei dati di ingresso, con ogni
+addendo moltiplicato per la probabilità di occorrenza della relativa istanza dei dati di ingresso
+B. determinato dall'istanza dei dati di ingresso che minimizza il tempo d'esecuzione e quindi fornisce un
+limite inferiore alla quantità di risorse computazionali necessarie all'algoritmo
+C. determinato dall'istanza dei dati di ingresso che massimizza il tempo d'esecuzione e quindi fornisce un
+limite superiore alla quantità di risorse computazionali necessarie all'algoritmo
+D. la media del caso peggiore e migliore
+Risposta corretta: A
+Argomento: Complessità asintotica
+
+
+2. In una sequenza di istruzioni, la complessità è:
+A. un valore costante
+B. la media O grande di tutte le sequenze
+C. O grande del massimo delle funzioni relative a ciascuna sequenza
+D. la somma delle sequenze
+Risposta corretta: C
+Argomento: Calcolo della complessità: algoritmi non ricorsivi
+
+
+3. Nel fattoriale non ricorsivo:
+A. la complessità è O(n)
+B. la complessità è O(n!)
+C. la complessità è O(n^2)
+D. la complessità è O(n^3)
+Risposta corretta: A
+Argomento: Analisi di complessità - Esempi
+
+
+4. In Fibonacci non ricorsivo per n = 3:
+A. la complessità è O(n!)
+B. la complessità è O(n)
+C. la complessità è O(n^2)
+D. la complessità è O(n^3)
+Risposta corretta: B
+Argomento: Analisi di complessità - Esempi
+
+
+5. In Fibonacci non ricorsivo per n = 2:
+A. la complessità è O(n)
+B. la complessità è O(n^2)
+C. la complessità è O(1)
+D. la complessità è O(n^3)
+Risposta corretta: C
+Argomento: Analisi di complessità - Esempi
+
+6. Nel calcolo del massimo non ricorsivo:
+A. la complessità è O(n^3)
+B. la complessità è O(n^2)
+C. la complessità è O(1)
+D. la complessità è O(n)
+Risposta corretta: D
+Argomento: Analisi di complessità - Esempi
+
+
+7. Nel calcolo del massimo non ricorsivo, il caso peggiore ha complessità:
+A. la complessità è O(n^3)
+B. la complessità è O(n^2)
+C. la complessità è O(1)
+D. la complessità è O(n)
+Risposta corretta: D
+Argomento: Analisi di complessità - Esempi
+
+
+8. Nel calcolo del massimo non ricorsivo, il caso migliore ha complessità:
+A. la complessità è O(n^3)
+B. la complessità è O(n^2)
+C. la complessità è O(1)
+D. la complessità è O(n)
+Risposta corretta: D
+Argomento: Analisi di complessità - Esempi
+
+
+9. Nel calcolo del massimo non ricorsivo, avere il massimo in prima posizione:
+A. comporta vantaggi alla complessità
+B. non comporta vantaggi alla complessità
+C. comporta un O(1)
+D. comporta vantaggi in termini di spazio
+Risposta corretta: B
+Argomento: Analisi di complessità - Esempi
+
+
+10. Nel calcolo del massimo non ricorsivo, avere il massimo in ultima posizione:
+A. comporta vantaggi alla complessità
+B. non comporta vantaggi alla complessità
+C. comporta un O(1)
+D. comporta vantaggi in termini di spazio
+Risposta corretta: B
+Argomento: Analisi di complessità - Esempi
+
+                     Capitolo ID 15: Complessità degli algoritmi ricorsivi
+1. Una equazione di ricorrenza esprime il tempo di esecuzione totale di un problema di
+dimensione n:
+A. in funzione del tempo di esecuzione per input logaritmici
+B. in funzione del tempo di esecuzione per input più costanti
+C. in funzione del tempo di esecuzione per input più piccoli
+D. in funzione del tempo di esecuzione per input più grandi
+Risposta corretta: C
+Argomento: Calcolo della complessità: algoritmi ricorsivi
+
+
+2. La ricorrenza che si ottiene nel divide et impera è nella forma:
+A. aT (n/b) + D(n) + C(n)
+B. aT (n) + D(n) + C(n)
+C. aT (n/b) + C(n)
+D. T (n/b) + D(n)
+Risposta corretta: A
+Argomento: Calcolo della complessità: algoritmi ricorsivi
+
+
+3. Nel mergesort, T(n):
+A. È lineare
+B. È logaritmico
+C. È polinomiale
+D. È esponenziale
+Risposta corretta: B
+Argomento: Calcolo della complessità: algoritmi ricorsivi
+
+
+4. Nel divide et impera, D(n) è usato per indicare:
+A. il tempo per combinare i sotto-problemi
+B. la complessità
+C. il tempo di calcolo geneale
+D. il tempo per dividere il problema in sotto-problemi
+Risposta corretta: D
+Argomento: Calcolo della complessità: algoritmi ricorsivi
+
+
+5. Nel divide et impera, C(n) è usato per indicare:
+A. il tempo per combinare i sotto-problemi
+B. la complessità
+C. il tempo di calcolo geneale
+D. il tempo per dividere il problema in sotto-problemi
+Risposta corretta: A
+Argomento: Calcolo della complessità: algoritmi ricorsivi
+
+
+6. Nel metodo di sostituzione:
+A. non ipotizziamo un limite e poi usiamo l'induzione matematica per dimostrare che la nostra ipotesi è
+corretta
+B. ipotizziamo un limite e poi usiamo l'induzione matematica per dimostrare che la nostra ipotesi è
+corretta
+C. non si fanno ipotesi
+D. si ragiona per assurdo
+Risposta corretta: B
+Argomento: Metodi di risoluzione delle ricorrenze
+
+
+7. L'ipotesi che si ottiene tramite un albero di ricorsione:
+A. può essere usata nel metodo di sostituzione
+B. non può essere usata nel metodo di sostituzione
+C. viene usata per scartare altre soluzioni
+D. non è considerata una ipotesi valida
+Risposta corretta: A
+Argomento: Metodi di risoluzione delle ricorrenze
+
+
+8. Consideriamo T(n)=9T(n/3)+n:
+A. T(n)=θ(n)
+B. T(n)=O(n^2)
+C. T(n)=θ(n^2)
+D. T(n)=θ(n^3)
+Risposta corretta: C
+Argomento: Metodi di risoluzione delle ricorrenze
+
+
+9. Nel teorema dell'esperto si confronta f(n) con:
+A. n
+B. n^(logb(a))
+C. n^2
+D. n^3
+Risposta corretta: B
+Argomento: Metodi di risoluzione delle ricorrenze
+
+
+10. Nel teorema dell'esperto si hanno il seguenti numero di casi di analisi:
+A. 1
+B. 2
+C. 3
+D. 4
+Risposta corretta: C
+Argomento: Metodi di risoluzione delle ricorrenze
+
+                                Capitolo ID 17: Algoritmi per Array
+1. Le strutture nell'ambito della programmazione possono essere definite ad un livello
+astratto:
+A. come liste
+B. come insiemi di elementi dotati di opportune operazioni
+C. come classi
+D. come tipi di dati astratti
+Risposta corretta: B
+Argomento: Introduzione alla struttura dati
+
+
+2. Un array è un:
+A. contenitore statico ed omogeneo di valori, variabili o oggetti
+B. contenitore dinamico ed omogeneo di valori, variabili o oggetti
+C. contenitore statico e non omogeneo di valori, variabili o oggetti
+D. contenitore dinamico e non omogeneo di valori, variabili o oggetti
+Risposta corretta: A
+Argomento: Introduzione alla struttura dati
+
+
+3. Un array è detto statico perché:
+A. a tempo di compilazione i suoi valori sono pari a 0
+B. a tempo d'esecuzione i suoi valori non possono cambiare
+C. i suoi elementi non variano di numero a tempo d'esecuzione
+D. i suoi elementi possono variare di numero a tempo d'esecuzione
+Risposta corretta: C
+Argomento: Introduzione alla struttura dati
+
+
+4. Un array è detto omogeneo perché:
+A. i suoi elementi sono di tipo diverso
+B. i suoi elementi non possono essere tutti dello stesso tipo
+C. i suoi elementi possono essere tutti dello stesso tipo
+D. i suoi elementi sono tutti dello stesso tipo
+Risposta corretta: D
+Argomento: Introduzione alla struttura dati
+
+
+5. L'operazione di lettura o modifica del valore di un elemento di un array ha complessità
+asintotica:
+A. polinomiale
+B. O(1)
+C. esponenziale
+D. lineare
+Risposta corretta: B
+Argomento: Introduzione alla struttura dati
+
+6. Gli elementi di un array sono memorizzati:
+A. consecutivamente
+B. casualmente
+C. in celle riservate
+D. in base al contenuto
+Risposta corretta: A
+Argomento: Introduzione alla struttura dati
+
+
+7. In un array, il problema della visita:
+A. significa attraversare tutti i suoi elementi esattamente più volte
+B. significa attraversare tutti i suoi elementi esattamente una volta
+C. significa accedere almeno ad un suo elemento
+D. significa potere accedere al primo e l'ultimo elemento
+Risposta corretta: B
+Argomento: Introduzione alla struttura dati
+
+
+8. Il Python:
+A. supporta nativamente gli array
+B. non supporta nativamente gli array
+C. ammette array di lunghezza variabile
+D. consente di definire array a run-time
+Risposta corretta: B
+Argomento: Implementazione
+
+
+9. Una Python List ammette:
+A. dati non omogenei
+B. solo dati omogenei
+C. solo dati non omogenei
+D. solo tipi di dato numerici
+Risposta corretta: A
+Argomento: Implementazione
+
+
+10. Le prestazioni di un array in C++ rispetto ad una analoga Python list:
+A. sono peggiori
+B. sono identiche
+C. sono migliori
+D. sono a volte migliori ed a volte peggiori
+Risposta corretta: C
+Argomento: C++ vs Python list
+
+                         Capitolo ID 18: Gestione della memoria in C++
+1. In C/C++ vi sono a disposizione del programmatore, i seguenti pools di memoria:
+A. dynamic, static
+B. static, stack, heap
+C. heap, stack
+D. dynamic, heap
+Risposta corretta: B
+Argomento: Pools di memoria
+
+
+2. Tipo di memoria che persiste per l'intera esecuzione del programma ed è utilizzata
+tipicamente per memorizzare variabili globali:
+A. heap
+B. static
+C. stack
+D. variable
+Risposta corretta: B
+Argomento: Pools di memoria
+
+
+3. L'heap è gestito:
+A. automaticamente
+B. manualmente dal programmatore
+C. dal sistema operativo
+D. dallo stack
+Risposta corretta: B
+Argomento: Pools di memoria
+
+
+4. L'allocazione dello stack:
+A. È gestita dal compilatore
+B. È gestita dal programmatore
+C. È gestita dall'IDE
+D. È gestita dall'heap
+Risposta corretta: A
+Argomento: Pools di memoria
+
+
+5. Uno dei problemi dello stack è:
+A. lentezza
+B. costo
+C. memory shortage
+D. memory leak
+Risposta corretta: C
+Argomento: Pools di memoria
+
+
+6. L'operatore & nei puntatori è usato:
+A. per accedere all'oggetto riferito
+B. per ottenere un valore in un array
+C. per ottenere il valore di un oggetto
+D. per ottenere l'indirizzo di un oggetto
+Risposta corretta: D
+Argomento: Puntatore
+
+
+7. L'operatore * nei puntatori è usato:
+A. per accedere all'oggetto riferito
+B. per ottenere un valore in un array
+C. per ottenere il valore di un oggetto
+D. per ottenere l'indirizzo di un oggetto
+Risposta corretta: A
+Argomento: Puntatore
+
+
+8. Gli operatori new e delete in C++ sono usati per:
+A. gestire l'allocazione dinamica e la deallocazione degli oggetti
+B. creare e distruggere un array
+C. allocare e deallocare un array
+D. creare e distruggere un oggetto dallo stack
+Risposta corretta: A
+Argomento: Puntatore
+
+
+9. La dichiarazione di un puntatore comporta:
+A. nessuna allocazione di memoria
+B. allocazione di memoria per per la variabile puntata
+C. allocazione di memoria per una variabile puntatore, ma non per la variabile puntata
+D. allocazione di memoria per una variabile puntatore e per la variabile puntata
+Risposta corretta: C
+Argomento: Array vs Puntatori
+
+
+10. La dichiarazione di un array comporta:
+A. nessuna allocazione di memoria
+B. allocazione di memoria per per la variabile puntata
+C. allocazione di memoria per una variabile puntatore, ma non per la variabile puntata
+D. allocazione di memoria non solo per una variabile puntatore, ma anche per l'area puntata
+Risposta corretta: D
+Argomento: Array vs Puntatori
+
+                       Capitolo ID 19: Il problema della ricerca nell'array
+1. Un array è statico:
+A. sempre
+B. può esserlo
+C. non sempre
+D. mai
+Risposta corretta: A
+Argomento: Introduzione alla struttura dati
+
+
+2. Un array è omogeneo:
+A. sempre
+B. può esserlo
+C. non sempre
+D. mai
+Risposta corretta: A
+Argomento: Introduzione alla struttura dati
+
+
+3. L'algoritmo di visita di un array è:
+A. esponenziale
+B. polinomiale
+C. lineare
+D. logaritmico
+Risposta corretta: C
+Argomento: Introduzione alla struttura dati
+
+
+4. L'algoritmo di ricerca lineare in un array è:
+A. polinomiale
+B. esponenziale
+C. logaritmico
+D. lineare
+Risposta corretta: D
+Argomento: Problema della ricerca - analisi in C++
+
+
+5. L'algoritmo di ricerca binaria in un array è:
+A. sempre applicabile
+B. applicabile solo se l'array è ordinato
+C. applicabile solo se l'array è composto da un piccolo numero di elementi
+D. non applicabile su array ordinati
+Risposta corretta: B
+Argomento: Problema della ricerca - analisi in C++
+
+
+6. Il costo di un algoritmo di ricerca binaria è:
+A. esponenziale
+B. lineare
+C. logaritmico
+D. polinomiale
+Risposta corretta: B
+Argomento: Problema della ricerca - analisi in C++
+
+
+7. Il costo di un algoritmo di ricerca lineare in C++ e Python è:
+A. identico
+B. differente: in C++ è più costoso
+C. differente: in Python è più costoso
+D. differente ma non si può affermare quale sia in assoluto il più costoso
+Risposta corretta: A
+Argomento: Problema della ricerca - analisi in Python
+
+
+8. Il costo di un algoritmo di ricerca binaria in C++ e Python è:
+A. identico
+B. differente: in C++ è più costoso
+C. differente: in Python è più costoso
+D. differente ma non si può affermare quale sia in assoluto il più costoso
+Risposta corretta: A
+Argomento: Problema della ricerca - analisi in Python
+
+
+9. Un algoritmo di ricerca binaria:
+A. si può implementare solo in modalità iterativa
+B. si può implementare solo in modalità ricorsiva
+C. si può implementare in modalità ricorsiva ed iterativa
+D. non può essere implementato ricorsivamente
+Risposta corretta: C
+Argomento: Problema della ricerca - analisi in Python
+
+
+10. Gli Unit Tesrs in Python:
+A. incrementano la complessità dell'algoritmo
+B. non impattano sulla complessità dell'algoritmo
+C. possono impattare sulla complessità dell'algoritmo
+D. sono obbligatori
+Risposta corretta: B
+Argomento: Problema della ricerca - analisi in Python
+
+                         Capitolo ID 21: Il problema dell'ordinamento
+1. L'ordinamento di una sequenza di informazioni consiste nel disporre:
+A. le stesse informazioni in modo in modalità randomica
+B. le stess informazioni in ordine alfabetico
+C. le stess informazioni in ordine numerico crescente
+D. le stesse informazioni in modo da rispettare una qualche relazione d'ordine di tipo lineare
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+2. Un algoritmo di ordinamento è stabile se:
+A. altera l'ordine relativo di elementi dell'array aventi la stessa chiave
+B. non altera l'ordine relativo di elementi dell'array aventi la stessa chiave
+C. non altera l'ordine relativo di elementi dell'array
+D. lavora solo su elementi aventi la stessa chiave
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+3. Un algoritmo di ordinamento opera in place se:
+A. la dimensione delle strutture ausiliarie di cui necessita dipende dal numero di elementi dell'array da
+ordinare
+B. la dimensione delle strutture ausiliarie di cui necessita è linearmente proporzionale al numero di
+elementi dell'array da ordinare
+C. se lavora su un set di chiavi
+D. la dimensione delle strutture ausiliarie di cui necessita è indipendente dal numero di elementi
+dell'array da ordinare
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+4. Gli algoritmi di Ordinamento Interno:
+A. fanno uso di strutture dati allocate su disco
+B. fanno uso di strutture dati allorate su memoria secondaria
+C. fanno uso di strutture dati allocate in memoria centrale dell'elaboratore
+D. fanno uso di strutture dati ibride
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+5. Gli Algoritmi Semplici di Ordinamento presentano una complessità:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+6. Heap sort:
+A. non è molto efficiente
+B. È molto efficiente
+C. È costoso
+D. È lineare
+Risposta corretta: B
+Argomento: Algoritmi di ordinamento
+
+
+7. Merge sort:
+A. È stabile ma non in place
+B. non è stabile
+C. non è stabile e non in place
+D. È in place
+Risposta corretta: A
+Argomento: Algoritmi di ordinamento
+
+
+8. Insertion sort:
+A. È cubico
+B. È polinomiale
+C. È lineare
+D. È quadratico
+Risposta corretta: D
+Argomento: Algoritmi di ordinamento
+
+
+9. Selection sort:
+A. È cubico
+B. È polinomiale
+C. È lineare
+D. È quadratico
+Risposta corretta: D
+Argomento: Algoritmi di ordinamento
+
+
+10. Bubble sort:
+A. È cubico
+B. È polinomiale
+C. È lineare
+D. È quadratico
+Risposta corretta: D
+Argomento: Algoritmi di ordinamento
+
+                                    Capitolo ID 22: Selection Sort
+1. In selection Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+2. In selection Sort la complessità ne caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+3. In selection Sort la complessità ne caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+4. Selection Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+5. Selection Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+6. Selection Sort nel caso peggiore:
+A. È meglio di Merge Sort
+B. È meglio di Heap Sort
+C. È come Quick Sort
+D. È meglio di Insertion Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Selection Sort nel caso peggiore:
+A. È come Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È peggio di Insertion Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Selection Sort nel caso medio:
+A. È meglio di Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È come Bubble Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Selection Sort non è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: C
+Argomento: Implementazione
+
+
+10. Selection Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: A
+Argomento: Implementazione
+
+                                    Capitolo ID 23: Insertion Sort
+1. In Insertion Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+2. In Insertion Sort la complessità nel caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+3. In Insertion Sort la complessità nel caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+4. Insertion Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+5. Insertion Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+6. Insertion Sort nel caso peggiore:
+A. È meglio di Merge Sort
+B. È meglio di Heap Sort
+C. È come Quick Sort
+D. È meglio di Selection Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Insertion Sort nel caso peggiore:
+A. È come Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È peggio di Selection Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Insertion Sort nel caso medio:
+A. È meglio di Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È come Bubble Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Insertion Sort è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: D
+Argomento: Implementazione
+
+
+10. Insertion Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: A
+Argomento: Implementazione
+
+                                      Capitolo ID 24: Bubble Sort
+1. In Bubble Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+2. In Bubble Sort la complessità nel caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+3. In Bubble Sort la complessità nel caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+4. Bubble Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+5. Bubble Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+6. Bubble Sort nel caso peggiore:
+A. È meglio di Merge Sort
+B. È meglio di Heap Sort
+C. È come Quick Sort
+D. È meglio di Selection Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Bubble Sort nel caso peggiore:
+A. È come Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È peggio di Selection Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Bubble Sort nel caso medio:
+A. È meglio di Quick Sort
+B. È meglio di Merge Sort
+C. È meglio di Heap Sort
+D. È come Selectio Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Bubble Sort è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: D
+Argomento: Implementazione
+
+
+10. Bubble Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: A
+Argomento: Implementazione
+
+                                      Capitolo ID 25: Merge Sort
+
+1. In Merge Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+2. In Merge Sort la complessità nel caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+3. In Merge Sort la complessità nel caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+4. Merge Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+5. Merge Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+6. Merge Sort nel caso peggiore:
+A. È peggio di Insertion Sort
+B. È meglio di Heap Sort
+C. È come Heap Sort
+D. È peggio di Selection Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Merge Sort nel caso peggiore:
+A. È come Heap Sort
+B. È peggio di Insertion Sort
+C. È peggio di Quick Sort
+D. È peggio di Selection Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Merge Sort nel caso medio:
+A. È meglio di Quick Sort
+B. È peggio di Insertion Sort
+C. È peggio di Selection Sort
+D. È come Quick Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Merge Sort è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: D
+Argomento: Implementazione
+
+
+10. Merge Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: B
+Argomento: Implementazione
+
+                                      Capitolo ID 26: Quick Sort
+1. In Quick Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+2. In Quick Sort la complessità nel caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+3. In Quick Sort la complessità nel caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+4. Quick Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+5. Quick Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+6. Quick Sort nel caso peggiore:
+A. È meglio di Merge Sort
+B. È peggio di Heap Sort
+C. È come Selection Sort
+D. È meglio di Selection Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Quick Sort nel caso peggiore:
+A. È come Bubble Sort
+B. È meglio di Bubble Sort
+C. È peggio di Bubble Sort
+D. È meglio di Heap Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Quick Sort nel caso medio:
+A. È peggio di Selection Sort
+B. È peggio di Merge Sort
+C. È meglio di Merge Sort
+D. È come Merge Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Quick Sort non è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: C
+Argomento: Implementazione
+
+
+10. Quick Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: A
+Argomento: Implementazione
+
+                                        Capitolo ID 27: Heap Sort
+
+1. In un albero completo:
+
+
+A. tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 2
+B. tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 3
+C. tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 4
+D. tutte le foglie hanno la stessa profondità e tutti i nodi interni hanno grado 5
+Risposta corretta: A
+Argomento: Heap Sort
+
+
+2. In un albero quasi completo:
+A. l'ultimo livello ha sempre e solo uan foglia
+B. tutti i livelli, tranne al più l'ultimo, sono completi
+C. ogni nodo ha due foglie
+D. ha profondità 2
+Risposta corretta: B
+Argomento: Heap Sort
+
+
+3. Il grado di un albero indica:
+A. la profondità
+B. l'altezza
+C. il numero di figli di uno specifico nodo
+D. il livello di completezza
+Risposta corretta: C
+Argomento: Heap Sort
+
+
+4. In un albero heap, left(i) è pari a:
+A. i
+B. 2i
+C. 3i
+D. 4i
+Risposta corretta: B
+Argomento: Heap Sort
+
+
+5. Nel max-heap:
+A. ogni elemento è minore o uguale al nodo figlio
+B. ogni nodo ha 2 figli
+C. la profondità è pari a 2
+D. ogni elemento è minore o uguale al nodo padre
+Risposta corretta: D
+Argomento: Heap Sort
+
+
+6. Nell'heap sort:
+A. si può usare solo il max-heap
+B. si può usare solo il min-heap
+C. si può usare sia il max-heap che il min-heap
+D. nella fase 1 si usa il max-heap e nella 2 il min-heap
+Risposta corretta: C
+Argomento: Heap Sort
+
+
+7. Nella prima fase dell'heap sort, l'algoritmo permuta i valori contenuti negli elementi
+dell'array in modo tale che:
+A. l'albero diventi completo
+B. la nuova disposizione delle chiavi costituisca uno heap
+C. la radice contenga il valore più basso
+D. la profondità sia pari a 2
+Risposta corretta: B
+Argomento: Heap Sort
+
+
+8. In un albero heap, right(i) è pari a:
+A. i+1
+B. 2i
+C. 2i+1
+D. i
+Risposta corretta: C
+Argomento: Heap Sort
+
+
+9. Nell'heap sort, le operazioni parent, left e right possono essere calcolate:
+A. mediante la ricorsione
+B. mediante una sola operazione
+C. con complessità quadratica
+D. attraverso il teorema dell'esperto
+Risposta corretta: B
+Argomento: Heap Sort
+
+
+10. Nel min-heap:
+A. la profondità è pari a 2
+B. il più piccolo elemento non può essere nella radice
+C. il più piccolo elemento è in una delle foglie
+D. il più piccolo elemento è nella radice
+Risposta corretta: D
+Argomento: Heap Sort
+
+                         Capitolo ID 28: Heap Sort - Implementazione
+1. In Heap Sort la complessità nel caso migliore è:
+A. lineare
+B. quadratica
+C. cubica
+D. logaritmica
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+2. In Heap Sort la complessità nel caso medio è:
+A. cubica
+B. logaritmica
+C. lineare
+D. quadratica
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+3. In Heap Sort la complessità nel caso peggiore è:
+A. quadratica
+B. logaritmica
+C. cubica
+D. lineare
+Risposta corretta: B
+Argomento: Il problema dell'ordinamento
+
+
+4. Heap Sort è in generale:
+A. instabile
+B. stabile
+C. stabile solo nel caso peggiore
+D. stabile solo nel caso migliore
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+5. Heap Sort è in place:
+A. si
+B. no
+C. non è possibile stabirlo con certezza
+D. logaritmica
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+6. Heap Sort nel caso peggiore:
+A. È peggio di Bubble Sort
+B. È peggio di Merge Sort
+C. È come Merge Sort
+D. È meglio di Merge Sort
+Risposta corretta: C
+Argomento: Il problema dell'ordinamento
+
+
+7. Heap Sort nel caso peggiore:
+A. È come Merge Sort
+B. È peggio di Bubble Sort
+C. È peggio di Quick Sort
+D. È meglio di Selection Sort
+Risposta corretta: A
+Argomento: Il problema dell'ordinamento
+
+
+8. Heap Sort nel caso medio:
+A. È peggio di Selection Sort
+B. È peggio di Bubble Sort
+C. È meglio di Insertion Sort
+D. È come Merge Sort
+Risposta corretta: D
+Argomento: Il problema dell'ordinamento
+
+
+9. Heap Sort non è stabile perché:
+A. ha una complessità logaritmica
+B. È in place
+C. altera gli elementi chiave
+D. non altera gli elementi chiave
+Risposta corretta: C
+Argomento: Implementazione
+
+
+10. Heap Sort è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: A
+Argomento: Implementazione
+
+                                    Capitolo ID 31: Strutture Dati
+1. Una struttura dati:
+A. È sinonimo di insieme
+B. fornisce una rappresentazione organizzata e logica dei dati all'interno di un insieme
+C. È un insieme a cui sono stati applicati dei criteri di ordinamento
+D. È una collezione di insiemi
+Risposta corretta: B
+Argomento: Introduzione alle strutture dati
+
+
+2. Una struttura dinamica è una struttura che è pensata:
+A. per aggiungere o togliere elementi durante l'esecuzione di un algoritmo
+B. solo per aggiungere elementi
+C. solo per togliere elementi
+D. solo per visualizzare elementi
+Risposta corretta: A
+Argomento: Introduzione alle strutture dati
+
+
+3. Se non si possono cioè fare ipotesi sulla posizione fisica degli elementi in memoria si dice
+che la struttura è:
+A. compatta
+B. dinamica
+C. sparsa
+D. ordinata
+Risposta corretta: C
+Argomento: Introduzione alle strutture dati
+
+
+4. Un array è una struttura:
+A. lineare
+B. non lineare
+C. sparsa
+D. dinamica
+Risposta corretta: A
+Argomento: Introduzione alle strutture dati
+
+
+5. Le tipiche operazioni su un insieme dinamico sono:
+A. query
+B. modifica
+C. ricerca
+D. query e modifica
+Risposta corretta: D
+Argomento: Insieme dinamico
+
+
+6. Una struttura dati concreta:
+A. È una struttura astratta
+B. ha una sola modalità di rappresentazione
+C. È l'implementazione di una struttura astratta
+D. non ammette un corrispettivo astratto
+Risposta corretta: C
+Argomento: Insieme dinamico
+
+
+7. Una chiave consente:
+A. di identificare univocamente i dati in una struttura
+B. di accedere a 2 elementi contemporaneamente
+C. di accedere a 3 elementi contemporaneamente
+D. di accedere ad n elementi contemporaneamente
+Risposta corretta: A
+Argomento: Insieme dinamico
+
+
+8. Nelle strutture dati dinamiche i puntatori:
+A. non vengono utilizzati
+B. non possono essere utilizzati
+C. sono obsoleti
+D. vengono utilizzati per collegare gli elementi tra loro
+Risposta corretta: C
+Argomento: Puntatore
+
+
+9. In Python, tutte le variabili:
+A. sono intere
+B. sono puntatori impliciti
+C. sono oggetti
+D. sono astratte
+Risposta corretta: B
+Argomento: Puntatore
+
+
+10. In Python, quando si assegna un valore a una variabile:
+A. si alloca lo spazio di memoria
+B. si crea una variabile
+C. si elimina il valore temporaneo in memoria
+D. si sta creando un riferimento all'oggetto in memoria
+Risposta corretta: D
+Argomento: Puntatore
+
+                                         Capitolo ID 32: Liste
+1. Rispetto alla tassonomia classica, una lista risulta:
+A. dinamica, sparsa, ordinata
+B. statica, sparsa, ordinata
+C. statica, compatta, ordinata
+D. dinamica, compatta, ordinata
+Risposta corretta: A
+Argomento: Introduzione
+
+
+2. Nelle liste, il puntatore:
+A. non si usa
+B. È fortemente sconsigliato
+C. È usato per l'implementazione
+D. sono preferite altre strutture
+Risposta corretta: C
+Argomento: Introduzione
+
+
+3. Gli elementi di una lista:
+A. sono memorizzati in modo consecutivo
+B. non sono necessariamente memorizzati in modo consecutivo
+C. sono memorizzati esclusivamente in modo consecutivo
+D. sono necessariamente memorizzati in modo consecutivo
+Risposta corretta: B
+Argomento: Lista
+
+
+4. Una lista è un multi-insieme, cioè:
+A. non ci possono essere ripetizioni del medesimo elemento
+B. gli elementi sono tutti distinti
+C. ci possono essere al più 2 ripetizioni per elemento
+D. ci possono essere ripetizioni del medesimo elemento
+Risposta corretta: D
+Argomento: Lista
+
+
+5. Dati una lista e un valore, stabilire se il valore è contenuto in un elemento della lista,
+riportando in caso affermativo l'indirizzo di tale elemento:
+A. È il problema della ricerca
+B. È il problema della visita
+C. È il problema dell'inserimento
+D. È il problema della cancellazione
+Risposta corretta: A
+Argomento: Lista
+
+
+6. Una lista dinamica può essere rappresentata tramite:
+A. array
+B. puntatori
+C. array e puntatori
+D. variabili
+Risposta corretta: B
+Argomento: Lista
+
+
+7. La ricerca di un elemento in una lista:
+A. È un problema di visita
+B. È un problema di ricerca
+C. È un problema di inserimento
+D. È un problema di cancellazione
+Risposta corretta: A
+Argomento: Lista
+
+
+8. Malloc() in C ha come analoga in C++:
+A. create
+B. new
+C. malloc
+D. main
+Risposta corretta: B
+Argomento: Gestione della memoria dinamica
+
+
+9. Free() in C ha come analoga in C++:
+A. free
+B. destroy
+C. delete
+D. cancel
+Risposta corretta: C
+Argomento: Gestione della memoria dinamica
+
+
+10. Se non si libera la memoria allocata dinamicamente:
+A. si può riusare la stessa memoria
+B. si mantiene costante il tempo di esecuzione
+C. si determina uno stack overflow
+D. si rischia un memory leak
+Risposta corretta: D
+Argomento: Gestione della memoria dinamica
+
+                               Capitolo ID 33: Liste - Implementazione
+1. In una lista realizzata con raw pointers, ciascun elemento della lista è una struttura di due
+campi, di cui uno rappresenta il valore dell'elemento:
+A. È di tipo numerico
+B. l'altro è di tipo puntatore e punta a NULL
+C. l'altro è di tipo puntatore e punta all'elemento successivo nella lista
+D. l'altro è di tipo puntatore e punta al primo nella lista
+Risposta corretta: C
+Argomento: Lista
+
+
+2. In una lista implementata tramite puntatori, la memoria utilizzata:
+A. viene gestita dinamicamente ed è esattamente proporzionale al numero degli elementi della lista
+B. viene gestita dinamicamente ed è costante
+C. È di lunghezza costante
+D. viene gestita dinamicamente e non è proporzionale al numero degli elementi della lista
+Risposta corretta: A
+Argomento: Lista
+
+
+3. In una lista di puntatori:
+A. si ha la necessità dell'indirizzo dell'ultimo elemento della lista
+B. non si ha la necessità dell'indirizzo del primo elemento della lista
+C. si ha la necessità dell'indirizzo di un elemento qualsiasi della lista
+D. si ha la necessità dell'indirizzo del primo elemento della lista
+Risposta corretta: D
+Argomento: Lista
+
+
+4. In una lista di puntatori posso inserire un nuovo elemento:
+A. sia in testa che in coda
+B. solo in testa
+C. solo in coda
+D. subito dopo il primo elemento
+Risposta corretta: A
+Argomento: Operazioni sulla lista
+
+
+5. In una lista di puntatori la visita può essere implementata:
+A. solo in maniera ricorsiva
+B. solo in maniera iterativa
+C. in maniera iterativa o ricorsiva
+D. partendo dall'ultimo elemento
+Risposta corretta: C
+Argomento: Operazioni sulla lista
+
+
+6. In una heap corruption:
+A. riferimenti a memoria precedentemente rilasciata non restano accessibili da parti del programma
+ancora in esecuzione
+B. riferimenti a memoria non rilasciata restano accessibili da parti del programma ancora in esecuzione
+C. riferimenti a memoria non rilasciata restano accessibili dall'heap
+D. riferimenti a memoria precedentemente rilasciata restano accessibili da parti del programma ancora in
+esecuzione
+Risposta corretta: D
+Argomento: Implementazione con smart pointers
+
+
+7. In uno smart pointer:
+A. c'è una gestione manuale della memoria
+B. il comportamento è analogo ai raw pointers in termini di gestione della memoria
+C. c'è l'aggiunta dell'informazione necessaria per capire quando la risorsa può essere rilasciata
+D. non c'è l'aggiunta dell'informazione necessaria per capire quando la risorsa può essere rilasciata
+Risposta corretta: C
+Argomento: Implementazione con smart pointers
+
+
+8. Negli smart pointers:
+A. c'è una gestione manuale della memoria
+B. È contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà più
+accedere alla memoria puntata
+C. non è contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà più
+accedere alla memoria puntata
+D. può essere contenuta l'informazione per capire che all'uscita da uno scope, nessun altro scope potrà
+più accedere alla memoria puntata
+Risposta corretta: B
+Argomento: Implementazione con smart pointers
+
+
+9. La ricerca di un elemento in una lista di puntatori ha complessità:
+A. lineare
+B. esponenziale
+C. quadratica
+D. costante
+Risposta corretta: A
+Argomento: Analisi della complessità
+
+
+10. L'inserimento di un elemento in una lista di puntatori ha complessità:
+A. lineare
+B. esponenziale
+C. quadratica
+D. costante
+Risposta corretta: A
+Argomento: Analisi della complessità
+
+                                         Capitolo ID 36: Stack
+1. La pila è un sistema:
+A. LILO
+B. LIFO
+C. FIFO
+D. FILO
+Risposta corretta: B
+Argomento: Pila/Stack
+
+
+2. La funzione push in una pila:
+A. inserisce un elemento in testa
+B. inserisce un elemento in coda
+C. elimina l'elemento in testa
+D. elimina l'elemento in coda
+Risposta corretta: A
+Argomento: Pila/Stack
+
+
+3. La funzione pop in una pila:
+A. inserisce un elemento in testa
+B. inserisce un elemento in coda
+C. elimina l'elemento in testa
+D. elimina l'elemento in coda
+Risposta corretta: C
+Argomento: Pila/Stack
+
+
+4. La scelta della struttura dati per implementare una pila:
+A. ricade esclusivamente negli array
+B. ricade esclusivamente nei puntatori
+C. ricade negli array o nei puntatori a seconda dello scenario
+D. dipende dal linguaggio di programmazione
+Risposta corretta: C
+Argomento: Pila/Stack
+
+
+5. Una pila:
+A. non può essere usata per la valutazione di una espressione
+B. può essere usata per la valutazione di una espressione
+C. può essere usata per la scrittura di una espressione
+D. può essere usata per la costruzione di una espressione
+Risposta corretta: B
+Argomento: Esempio di applicazione
+
+
+6. L'implementazione di una pila tramite array prevede:
+A. la conoscenza del numero massimo di elementi che la pila può contenere
+B. la conoscenza del numero minimo di elementi che la pila può contenere
+C. che l'array abbia lunghezza non definita
+D. che l'array abbia lunghezza nulla
+Risposta corretta: A
+Argomento: Implementazione
+
+
+7. Non è possibile accedere direttamente agli elementi all'interno della pila senza rimuoverli:
+A. È un'affermazione falsa
+B. È un'affermazione vera
+C. non si applica alla struttura dati pila
+D. È un'affermazione incompleta
+Risposta corretta: B
+Argomento: Implementazione
+
+
+8. Le operazioni di base su una pila hanno complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: B
+Argomento: Complessità
+
+
+9. L'operazione di push in una pila ha complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: B
+Argomento: Complessità
+
+
+10. L'operazione di pop in una pila ha complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: B
+Argomento: Complessità
+
+                                         Capitolo ID 38: Coda
+1. La coda è un sistema:
+A. LILO
+B. LIFO
+C. FIFO
+D. FILO
+Risposta corretta: C
+Argomento: Coda
+
+
+2. La funzione EnQueue in una coda:
+A. inserisce un elemento in testa
+B. inserisce un elemento in coda
+C. elimina l'elemento in testa
+D. elimina l'elemento in coda
+Risposta corretta: B
+Argomento: Coda
+
+
+3. La funzione DeQueue in una coda:
+A. inserisce un elemento in testa
+B. inserisce un elemento in coda
+C. elimina l'elemento in testa
+D. elimina l'elemento in coda
+Risposta corretta: C
+Argomento: Coda
+
+
+4. La scelta della struttura dati per implementare una coda:
+A. ricade esclusivamente negli array
+B. ricade esclusivamente nei puntatori
+C. ricade negli array o nei puntatori a seconda dello scenario
+D. dipende dal linguaggio di programmazione
+Risposta corretta: C
+Argomento: Coda
+
+
+5. Una coda circolare:
+A. supera il problema dello shift dei valori in un array quando c'è una DeQueue
+B. non supera il problema dello shift dei valori in un array quando c'è una DeQueue
+C. È meno efficiente della soluzione basata su un array in cui si esegue lo shift dei valori quando avviene
+una DeQueue
+D. non è una soluzione efficiente rispetto all'array standard in cui si esegue lo shift dei valori quando
+avviene una DeQueue
+Risposta corretta: A
+Argomento: Coda
+
+6. L'implementazione di una coda circolare:
+A. non può avvenire tramite array
+B. può avvenire tramite 2 variabili head e tail
+C. può avvenire con array ed una sola variabile che gestisce la testa della coda
+D. può avvenire tramite array con 2 variabili che mantengono i valori di head e tail
+Risposta corretta: D
+Argomento: Implementazione
+
+
+7. L'implementazione di una coda in C++ può avvenire tramite:
+A. la classe stack
+B. la classe pila
+C. la classe queue
+D. la classe tree
+Risposta corretta: C
+Argomento: Implementazione
+
+
+8. Le operazioni di base su una coda circolare hanno complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: B
+Argomento: Complessità
+
+
+9. Le operazioni di base su una coda non circolare hanno complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: A
+Argomento: Complessità
+
+
+10. L'operazione di EnQueue in una coda circolare ha complessità:
+A. O(n)
+B. O(1)
+C. O(n^2)
+D. O(n^3)
+Risposta corretta: B
+Argomento: Complessità
+
+                              Capitolo ID 3865: AUTOVALUTAZIONE
+115099. Selection Sort è in place:
+A. si
+B. no
+C. non è possibile stabilirlo con certezza
+D. logaritmica
+Risposta corretta: A
+Argomento: 7048
+
+
+115700. La notazione asintotica O:
+A. rappresenta un limite inferiore asintotico
+B. rappresenta un limite superiore asintotico
+C. rappresenta un limite stretto asintotico
+D. non rappresenta un limite
+Risposta corretta: B
+Argomento: 7068
+
+
+116120. Il costo di un algoritmo di ricerca binaria è:
+A. esponenziale
+B. lineare
+C. logaritmico
+D. polinomiale
+Risposta corretta: C
+Argomento: 7082
+
+
+116150. Nelle strutture dati dinamiche i puntatori:
+A. non vengono utilizzati
+B. non possono essere utilizzati
+C. sono obsoleti
+D. vengono utilizzati per collegare gli elementi tra loro
+Risposta corretta: D
+Argomento: 7083
+
+
+116210. Merge Sort non è in place perché:
+A. non introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+B. introduce strutture dati ausiliarie che dipendono dalla grandezza dell'array
+C. dipende dalla grandezza dell'array
+D. ha una complessità logaritmica
+Risposta corretta: B
+Argomento: 7085
