@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8770d8-3e20-47da-b615-e24e1160e879" name="Changes" comment="trim PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter.py" afterDir="false" />
-    </list>
+    <list default="true" id="9b8770d8-3e20-47da-b615-e24e1160e879" name="Changes" comment="trim/fix definitivo PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744100117717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="trim PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt">
+      <option name="closed" value="true" />
+      <created>1744101640298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744101640298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="trim/fix definitivo PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt">
+      <option name="closed" value="true" />
+      <created>1744103244254</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744103244254</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,7 +115,8 @@
     <MESSAGE value="creato lo scheletro del converter da txt a json" />
     <MESSAGE value="aggiunto PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
     <MESSAGE value="trim PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="trim PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
+    <MESSAGE value="trim/fix definitivo PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="trim/fix definitivo PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -152,11 +165,6 @@
           <url>file://$PROJECT_DIR$/converter.py</url>
           <line>20</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/converter.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
