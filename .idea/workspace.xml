@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b8770d8-3e20-47da-b615-e24e1160e879" name="Changes" comment="inizio" />
+    <list default="true" id="9b8770d8-3e20-47da-b615-e24e1160e879" name="Changes" comment="aggiunto PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt">
+      <change beforePath="$PROJECT_DIR$/converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/converter.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,12 +33,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.converter.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/TI-LT2401-03/PycharmProjects/pythonProject",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\TI-LT2401-03\PycharmProjects\pythonProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -58,11 +69,29 @@
       <option name="project" value="LOCAL" />
       <updated>1744099320690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creato lo scheletro del converter da txt a json">
+      <option name="closed" value="true" />
+      <created>1744099616469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744099616469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="aggiunto PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt">
+      <option name="closed" value="true" />
+      <created>1744099705947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744099705947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inizio" />
-    <option name="LAST_COMMIT_MESSAGE" value="inizio" />
+    <MESSAGE value="creato lo scheletro del converter da txt a json" />
+    <MESSAGE value="aggiunto PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunto PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt" />
   </component>
 </project>

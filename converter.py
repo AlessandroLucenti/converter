@@ -1,7 +1,7 @@
 import json
 
 # Leggi il contenuto del file di testo
-with open('PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025 1.txt', 'r') as file:
+with open('PANIERE-ALGORITMI-E-STRUTTURE-DATI-2025.txt', 'r') as file:
     txt_content = file.read()
 
 # Dividi il contenuto in capitoli

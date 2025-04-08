@@ -1,4 +1,4 @@
-                              Capitolo ID 1: Introduzione agli algoritmi
+Capitolo ID 1: Introduzione agli algoritmi
 
 1. Cos'è un problema:
 A. un evento senza soluzione
@@ -89,7 +89,7 @@ D. selezione, sequenza ed input
 Risposta corretta: C
 Argomento: Teorema di Bohm-Jacopini
 
-                             Capitolo ID 2: Pseudocodice e flowchart
+ Capitolo ID 2: Pseudocodice e flowchart
 1. Nella tesi di Church-Turing:
 A. tutti i linguaggi sufficientemente espressivi sono ugualmente espressivi
 B. tutti i linguaggi sono identici
@@ -179,7 +179,7 @@ D. indica la lunghezza dell'array
 Risposta corretta: B
 Argomento: Pseudocodice
 
-                             Capitolo ID 3: Un problema, due algoritmi
+ Capitolo ID 3: Un problema, due algoritmi
 1. Nella ricerca sequenziale di un elemento in un array di n elementi:
 A. la complessità è proporzionale ad n
 B. la complessità non è proporzionale ad n
@@ -270,7 +270,7 @@ Risposta corretta: B
 Argomento: Introduzione al concetto di complessità
 
 
-                                   Capitolo ID 4: Divide et Impera
+ Capitolo ID 4: Divide et Impera
 1. Il dato di ingresso soddisfa una certa proprietà:
 A. È un tipo di problema decisionale
 B. È un tipo di problema di ricerca
@@ -360,7 +360,7 @@ D. 15
 Risposta corretta: D
 Argomento: Torre di Hanoi
 
-                               Capitolo ID 5: Notazione Asintotica
+ Capitolo ID 5: Notazione Asintotica
 1. Una delle seguenti non è una operazione elementare:
 A. aritmetica
 B. logica
@@ -450,7 +450,7 @@ D. per un valore di n con 0
 Risposta corretta: B
 Argomento: Notazione Asintotica Theta
 
-                                      Capitolo ID 7: Complessità
+ Capitolo ID 7: Complessità
 
 1. La notazione asintotica O:
 A. rappresenta un limite inferiore asintotico
@@ -541,7 +541,7 @@ D. logaritmica
 Risposta corretta: B
 Argomento: La scala della complessità
 
-                         Capitolo ID 9: Flowgorithm - Funzionalità di base
+ Capitolo ID 9: Flowgorithm - Funzionalità di base
 1. Nei diagrammi di flusso, il simbolo del rombo è usato per:
 A. selezione
 B. input
@@ -595,7 +595,7 @@ D. di un rombo
 Risposta corretta: C
 Argomento: Iterazione
 
-                             Capitolo ID 11: Flowgorithm - Esercizi
+ Capitolo ID 11: Flowgorithm - Esercizi
 1. Il seguente non è un numero sconnesso:
 A. 1234
 B. 5678
@@ -649,7 +649,7 @@ D. 57161
 Risposta corretta: C
 Argomento: Numero Sconnesso
 
-                                 Capitolo ID 12: Replit - online IDE
+ Capitolo ID 12: Replit - online IDE
 1. Replit è un:
 A. IaaS
 B. PaaS
@@ -740,7 +740,7 @@ D. il next
 Risposta corretta: C
 Argomento: CIE Pseudocode template
 
-                Capitolo ID 14: Complessità degli algoritmi non ricorsivi
+ Capitolo ID 14: Complessità degli algoritmi non ricorsivi
 1. Un caso medio è:
 A. determinato dalla somma dei tempi d'esecuzione di tutte le istanze dei dati di ingresso, con ogni
 addendo moltiplicato per la probabilità di occorrenza della relativa istanza dei dati di ingresso
@@ -832,7 +832,7 @@ D. comporta vantaggi in termini di spazio
 Risposta corretta: B
 Argomento: Analisi di complessità - Esempi
 
-                     Capitolo ID 15: Complessità degli algoritmi ricorsivi
+ Capitolo ID 15: Complessità degli algoritmi ricorsivi
 1. Una equazione di ricorrenza esprime il tempo di esecuzione totale di un problema di
 dimensione n:
 A. in funzione del tempo di esecuzione per input logaritmici
@@ -925,7 +925,7 @@ D. 4
 Risposta corretta: C
 Argomento: Metodi di risoluzione delle ricorrenze
 
-                                Capitolo ID 17: Algoritmi per Array
+ Capitolo ID 17: Algoritmi per Array
 1. Le strutture nell'ambito della programmazione possono essere definite ad un livello
 astratto:
 A. come liste
@@ -1016,7 +1016,7 @@ D. sono a volte migliori ed a volte peggiori
 Risposta corretta: C
 Argomento: C++ vs Python list
 
-                         Capitolo ID 18: Gestione della memoria in C++
+ Capitolo ID 18: Gestione della memoria in C++
 1. In C/C++ vi sono a disposizione del programmatore, i seguenti pools di memoria:
 A. dynamic, static
 B. static, stack, heap
@@ -1107,7 +1107,7 @@ D. allocazione di memoria non solo per una variabile puntatore, ma anche per l'a
 Risposta corretta: D
 Argomento: Array vs Puntatori
 
-                       Capitolo ID 19: Il problema della ricerca nell'array
+ Capitolo ID 19: Il problema della ricerca nell'array
 1. Un array è statico:
 A. sempre
 B. può esserlo
@@ -1197,7 +1197,7 @@ D. sono obbligatori
 Risposta corretta: B
 Argomento: Problema della ricerca - analisi in Python
 
-                         Capitolo ID 21: Il problema dell'ordinamento
+ Capitolo ID 21: Il problema dell'ordinamento
 1. L'ordinamento di una sequenza di informazioni consiste nel disporre:
 A. le stesse informazioni in modo in modalità randomica
 B. le stess informazioni in ordine alfabetico
@@ -1289,7 +1289,7 @@ D. È quadratico
 Risposta corretta: D
 Argomento: Algoritmi di ordinamento
 
-                                    Capitolo ID 22: Selection Sort
+ Capitolo ID 22: Selection Sort
 1. In selection Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1379,7 +1379,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
-                                    Capitolo ID 23: Insertion Sort
+ Capitolo ID 23: Insertion Sort
 1. In Insertion Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1469,7 +1469,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
-                                      Capitolo ID 24: Bubble Sort
+ Capitolo ID 24: Bubble Sort
 1. In Bubble Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1559,7 +1559,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
-                                      Capitolo ID 25: Merge Sort
+ Capitolo ID 25: Merge Sort
 
 1. In Merge Sort la complessità nel caso migliore è:
 A. lineare
@@ -1650,7 +1650,7 @@ D. ha una complessità logaritmica
 Risposta corretta: B
 Argomento: Implementazione
 
-                                      Capitolo ID 26: Quick Sort
+ Capitolo ID 26: Quick Sort
 1. In Quick Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1740,7 +1740,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
-                                        Capitolo ID 27: Heap Sort
+ Capitolo ID 27: Heap Sort
 
 1. In un albero completo:
 
@@ -1834,7 +1834,7 @@ D. il più piccolo elemento è nella radice
 Risposta corretta: D
 Argomento: Heap Sort
 
-                         Capitolo ID 28: Heap Sort - Implementazione
+ Capitolo ID 28: Heap Sort - Implementazione
 1. In Heap Sort la complessità nel caso migliore è:
 A. lineare
 B. quadratica
@@ -1924,7 +1924,7 @@ D. ha una complessità logaritmica
 Risposta corretta: A
 Argomento: Implementazione
 
-                                    Capitolo ID 31: Strutture Dati
+ Capitolo ID 31: Strutture Dati
 1. Una struttura dati:
 A. È sinonimo di insieme
 B. fornisce una rappresentazione organizzata e logica dei dati all'interno di un insieme
@@ -2015,7 +2015,7 @@ D. si sta creando un riferimento all'oggetto in memoria
 Risposta corretta: D
 Argomento: Puntatore
 
-                                         Capitolo ID 32: Liste
+ Capitolo ID 32: Liste
 1. Rispetto alla tassonomia classica, una lista risulta:
 A. dinamica, sparsa, ordinata
 B. statica, sparsa, ordinata
@@ -2106,7 +2106,7 @@ D. si rischia un memory leak
 Risposta corretta: D
 Argomento: Gestione della memoria dinamica
 
-                               Capitolo ID 33: Liste - Implementazione
+ Capitolo ID 33: Liste - Implementazione
 1. In una lista realizzata con raw pointers, ciascun elemento della lista è una struttura di due
 campi, di cui uno rappresenta il valore dell'elemento:
 A. È di tipo numerico
@@ -2202,7 +2202,7 @@ D. costante
 Risposta corretta: A
 Argomento: Analisi della complessità
 
-                                         Capitolo ID 36: Stack
+ Capitolo ID 36: Stack
 1. La pila è un sistema:
 A. LILO
 B. LIFO
@@ -2291,8 +2291,7 @@ C. O(n^2)
 D. O(n^3)
 Risposta corretta: B
 Argomento: Complessità
-
-                                         Capitolo ID 38: Coda
+ Capitolo ID 38: Coda
 1. La coda è un sistema:
 A. LILO
 B. LIFO
@@ -2383,7 +2382,7 @@ D. O(n^3)
 Risposta corretta: B
 Argomento: Complessità
 
-                              Capitolo ID 3865: AUTOVALUTAZIONE
+Capitolo ID 3865: AUTOVALUTAZIONE
 115099. Selection Sort è in place:
 A. si
 B. no
